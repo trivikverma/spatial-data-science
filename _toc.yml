@@ -1,0 +1,35 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: _index
+chapters:
+- file: introduction_index
+  sections:
+    - file: introduction/tobeginwith
+    - file: introduction/overview
+    - file: introduction/syllabus
+    - file: introduction/schedule
+- file: lectures_index
+- file: labs_index
+- file: assessment_index
+  sections:
+    - file: assessment/assignment
+    - file: assessment/final-project
+    - file: assessment/project-details  # Add this if you want to include project-details.md
+    - file: assessment/project-template
+- file: assignments_index  # Assuming you want to add an index for assignments
+- file: faq_index
+- file: software_index
+  sections:
+    - file: software/1-standard
+    - file: software/2-minimalist
+    - file: software/3-comprehensive
+    - file: software/environment
+- file: resources_index
+- file: project_index
+  sections:
+    - file: project/project-01.ipynb
+    - file: project/project-02.ipynb
+    - file: project/project-03.ipynb
+  
