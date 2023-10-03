@@ -27,7 +27,7 @@ But first, *what are environments and do you need them?*
 
 Environments in Python are like sandboxes that have different versions of Python and/or packages installed in them. You can create, export, list, remove, and update environments. Switching or moving between environments is called activating the environment. When you are done with an environment, you may deactivate it.
 
-For this course, we want to have a bit more control on the packages that will be installed with the environment so we will create an environment with a so-called YAML file called [`install_gds_stack.yml`](../../resources/install_gds_stack.zip).
+For this course, we want to have a bit more control on the packages that will be installed with the environment so we will create an environment with a so-called YAML file called [`install_gds_stack.yml`](../resources/install_gds_stack.zip).
 
 To learn more about virtual environments, you can also go [here](environment.md).
 
@@ -41,7 +41,7 @@ Open up a terminal as follows depending on your OS:
 
 Now run the following commands:
 
-- Get the installer file from [here](../../resources/install_gds_stack.zip) and unzip it.
+- Get the installer file from [here](../resources/install_gds_stack.zip) and unzip it.
 - Navigate to the folder where this file is (e.g. Downloads):
 
     ```shell
