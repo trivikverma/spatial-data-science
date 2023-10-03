@@ -9,7 +9,7 @@ Head to the _build/html/ folder.
 
 Opening the index.html file should launch the book. 
 
-If that does not result in the book being launched, open the command prompt in the TemplateforDataScience folder and enter 'jupyter-book build EPA122A'
+If that does not result in the book being launched, open the command prompt in the root folder and enter 'jupyter-book build spatial-data-science'
 
 Then,
 Head to the _build/html/ folder. 
