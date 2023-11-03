@@ -19,12 +19,12 @@
   </script>
   
   <!-- Loaded before other Sphinx assets -->
-  <link href="../_static/styles/theme.css?digest=e353d410970836974a52" rel="stylesheet" />
-<link href="../_static/styles/bootstrap.css?digest=e353d410970836974a52" rel="stylesheet" />
-<link href="../_static/styles/pydata-sphinx-theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+  <link href="../_static/styles/theme.css?digest=365ca57ee442770a23c6" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=365ca57ee442770a23c6" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=365ca57ee442770a23c6" rel="stylesheet" />
 
   
-  <link href="../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=e353d410970836974a52" rel="stylesheet" />
+  <link href="../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=365ca57ee442770a23c6" rel="stylesheet" />
   <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
 <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
 <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
@@ -38,8 +38,9 @@
     <link rel="stylesheet" type="text/css" href="../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=e353d410970836974a52" />
-<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52" />
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=365ca57ee442770a23c6" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=365ca57ee442770a23c6" />
+  <script src="../_static/vendor/fontawesome/6.1.2/js/all.min.js?digest=365ca57ee442770a23c6"></script>
 
     <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
     <script src="../_static/jquery.js"></script>
@@ -77,6 +78,15 @@ const thebe_selector_output = ".output, .cell_output"
   
   
   <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
+
   
   <input type="checkbox"
           class="sidebar-toggle"
@@ -137,13 +147,14 @@ const thebe_selector_output = ".output, .cell_output"
   
   
   
+  
     
     
       
     
     
-    <img src="../_static/logo.png" class="logo__image only-light" alt="Logo image"/>
-    <script>document.write(`<img src="../_static/logo.png" class="logo__image only-dark" alt="Logo image"/>`);</script>
+    <img src="../_static/logo.png" class="logo__image only-light" alt="EPA122A - Home"/>
+    <script>document.write(`<img src="../_static/logo.png" class="logo__image only-dark" alt="EPA122A - Home"/>`);</script>
   
   
 </a></div>
@@ -346,10 +357,10 @@ const thebe_selector_output = ".output, .cell_output"
 
 <script>
 document.write(`
-  <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
-    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
-    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
   </button>
 `);
 </script>
@@ -357,7 +368,7 @@ document.write(`
 <script>
 document.write(`
   <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <i class="fa-solid fa-magnifying-glass"></i>
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
   </button>
 `);
 </script>
@@ -406,35 +417,35 @@ document.write(`
 <h2>Virtual Environments with Anaconda<a class="headerlink" href="#virtual-environments-with-anaconda" title="Permalink to this heading">#</a></h2>
 <p>This part of the tutorial assumes that you have installed Anaconda as your primary installation and that you are using jupyter lab / notebook from it. Anaconda really simplifies package management.</p>
 <p>To begin we will first create a virtual environment by relying on the conda command. Remember, you apply these steps either on the Anaconda Prompt or the console!</p>
-<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>conda<span class="w"> </span>create<span class="w"> </span>-n<span class="w"> </span>myenv<span class="w"> </span><span class="nv">python</span><span class="o">=</span><span class="m">3</span>.8
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>conda create -n myenv <span class="nv">python</span><span class="o">=</span><span class="m">3</span>.8
 </pre></div>
 </div>
 <p>On the code above, myenv is the name of the virtual environment and python- is the version of python you want inside the virtual environment. Now we need to activate the created environment.</p>
-<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>conda<span class="w"> </span>activate<span class="w"> </span>myenv
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>conda activate myenv
 </pre></div>
 </div>
 <p>With this, you activate the virtual environment and any packets / dependencies that you wish can be installed in this virtual environment. If you wish to get out of the virtual environment just type the code below:</p>
-<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>conda<span class="w"> </span>deactivate
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>conda deactivate
 </pre></div>
 </div>
 <p>You can also check all environments that you have already created in Anaconda by using:</p>
-<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>conda<span class="w"> </span>env<span class="w"> </span>list
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>conda env list
 </pre></div>
 </div>
 <p>and if you would like to remove any of them, you can run the code:</p>
-<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>conda<span class="w"> </span>env<span class="w"> </span>remove<span class="w"> </span>-n<span class="w"> </span>myenv
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>conda env remove -n myenv
 </pre></div>
 </div>
 <p>For adding new packages you use the following code below <strong>after activating your environment</strong>:</p>
-<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>conda<span class="w"> </span>install<span class="w"> </span>-n<span class="w"> </span>myenv<span class="w"> </span>numpy
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>conda install -n myenv numpy
 </pre></div>
 </div>
 <p><code class="docutils literal notranslate"><span class="pre">numpy</span></code> is an example here. The syntax is</p>
-<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>conda<span class="w"> </span>install<span class="w"> </span>-n<span class="w"> </span><span class="o">[</span>environment<span class="w"> </span>name<span class="o">]</span><span class="w"> </span><span class="o">[</span>package<span class="w"> </span>name<span class="o">]</span>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>conda install -n <span class="o">[</span>environment name<span class="o">]</span> <span class="o">[</span>package name<span class="o">]</span>
 </pre></div>
 </div>
 <p>Also for a specific package &amp; version you use:</p>
-<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>conda<span class="w"> </span>install<span class="w"> </span>-n<span class="w"> </span>myenv<span class="w"> </span><span class="nv">numpy</span><span class="o">==</span><span class="m">2</span>.18.4
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>conda install -n myenv <span class="nv">numpy</span><span class="o">==</span><span class="m">2</span>.18.4
 </pre></div>
 </div>
 <p>Great! You are done!</p>
@@ -442,19 +453,19 @@ document.write(`
 <section id="adding-the-virtual-environment-in-jupyter-notebook-lab">
 <h2>Adding the Virtual Environment in Jupyter Notebook/Lab<a class="headerlink" href="#adding-the-virtual-environment-in-jupyter-notebook-lab" title="Permalink to this heading">#</a></h2>
 <p>When you have created your virtual environment and installed Jupyter Lab or Notebook within the environment, at first Jupyter Notebook (being a standalone application) will not recognise the virtual environment. To set up the connection between the two, after activating your virtual environment run this code:</p>
-<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>pip<span class="w"> </span>install<span class="w"> </span>--user<span class="w"> </span>ipykernel
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>pip install --user ipykernel
 </pre></div>
 </div>
 <p>​
 This command has added a package called <code class="docutils literal notranslate"><span class="pre">ipykernel</span></code>. Then we can manually add the virtual environment in the Jupyter Notebook. We can use this code:</p>
-<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>python<span class="w"> </span>-m<span class="w"> </span>ipykernel<span class="w"> </span>install<span class="w"> </span>--user<span class="w"> </span>--name<span class="o">=</span>myenv
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>python -m ipykernel install --user --name<span class="o">=</span>myenv
 </pre></div>
 </div>
 <p>​
 Where <code class="docutils literal notranslate"><span class="pre">myenv</span></code> is the name of the environment we have created. Now all is ready to be used! You can check in the Jupyter Lab interface or when you create a new Jupyter Notebook. You can see it as in below in the launcher now:</p>
 <p><img alt="Jupyter Venv" src="../_images/jupyter_venv.png" /></p>
 <p>Lastly you can remove the virtual environment from Jupyter with:</p>
-<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>jupyter<span class="w"> </span>kernelspec<span class="w"> </span>uninstall<span class="w"> </span>myenv
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>jupyter kernelspec uninstall myenv
 </pre></div>
 </div>
 <p>​</p>
@@ -486,11 +497,10 @@ Where <code class="docutils literal notranslate"><span class="pre">myenv</span><
 
               
               
-                <footer class="bd-footer-article">
-                  
-<div class="footer-article-items footer-article__inner">
-  
-    <div class="footer-article-item"><!-- Previous / next buttons -->
+              
+              
+                <footer class="prev-next-footer">
+                  <!-- Previous / next buttons -->
 <div class="prev-next-area">
     <a class="left-prev"
        href="3-comprehensive.html"
@@ -510,10 +520,7 @@ Where <code class="docutils literal notranslate"><span class="pre">myenv</span><
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
-</div></div>
-  
 </div>
-
                 </footer>
               
             </div>
@@ -577,8 +584,8 @@ By Nachi
   </div>
   
   <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script src="../_static/scripts/bootstrap.js?digest=e353d410970836974a52"></script>
-<script src="../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52"></script>
+  <script src="../_static/scripts/bootstrap.js?digest=365ca57ee442770a23c6"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=365ca57ee442770a23c6"></script>
 
   <footer class="bd-footer">
   </footer>

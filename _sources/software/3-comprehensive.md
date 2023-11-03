@@ -14,7 +14,7 @@ This resource provides step-by-step descriptions on how to install and run Pytho
 ## <mark> **MacOS Installation** </mark>
 
 
-If you want to install miniconda (recommended approach, go [here](_index.md).)
+If you want to install miniconda (recommended approach, go [here](../software_index.md).)
 
 ## 1. Installation
 
@@ -95,6 +95,7 @@ the command below
 
 The following sections cover how to start a python session using the docker container image you just installed, use it, and shut it down when you are done.
 
+(running-the-container)=
 ### Running the container
 
 1. In the new terminal line type the following command to run the container: `docker run --rm -ti -p 8888:8888 -v ${PWD}:/home/jovyan/work darribas/gds:6.1`
@@ -179,7 +180,7 @@ Here I am navigating to the folder that I have created for this module in my Doc
 
 <br/>
 
-Next time you go to run a Jupyter Notebook you will not need to repeat the whole process as you have already installed Docker and the GDS environment. Instead you can start from [Running the container](#running-the-container) and carry on from there.
+Next time you go to run a Jupyter Notebook you will not need to repeat the whole process as you have already installed Docker and the GDS environment. Instead you can start from [Running the container](running-the-container) and carry on from there.
 
 <br/>
 
@@ -189,7 +190,7 @@ Next time you go to run a Jupyter Notebook you will not need to repeat the whole
 
 ## <mark> **Linux Installation** </mark>
 
-If you want to install miniconda (recommended approach, go [here](_index.md).)
+If you want to install miniconda (recommended approach, go [here](../software_index.md).)
 
 ## 1. Installation
 
@@ -201,7 +202,7 @@ To be able to complete this guide, your machine will need to meet the following 
 2. ~10GB of space on your hard drive
 3. A Linux distribution supported by Docker. You can check available distributions for ready installation on [this page](https://hub.docker.com/search?q=&type=edition&offering=community&operating_system=linux).
 
-**NOTE** If you are running a different distribution (e.g. Arch Linux), there is a good chance Docker _will_ work, but you will have to source your own instructions for installation. Once you have Docker up and running on your machine, you can move to [Installing the GDS container](#installing-the-gds-container).
+**NOTE** If you are running a different distribution (e.g. Arch Linux), there is a good chance Docker _will_ work, but you will have to source your own instructions for installation. Once you have Docker up and running on your machine, you can move to [Installing the GDS container](installing-the-gds-container).
 
 ### Docker install steps
 
@@ -225,6 +226,7 @@ For this example, we will use Ubuntu.
 
 Once you complete these steps successfully, you will have Docker ready to go on your computer!
 
+(installing-the-gds-container)=
 ### Installing the GDS container
 
 Once you have Docker installed and running on your machine, installing everything you need to run Python and associated libraries boils down to the following two steps:
@@ -353,7 +355,7 @@ Everything saved outside the `work` folder will be _destroyed_ as soon as you sh
 
 <br>
 
-Next time you go to run a Jupyter Notebook you will not need to repeat the whole process as you have already installed Docker and the GDS environment. Instead you can start from [Running Python through Docker](#running-the-container) and carry on from there.
+Next time you go to run a Jupyter Notebook you will not need to repeat the whole process as you have already installed Docker and the GDS environment. Instead you can start from [Running Python through Docker](running-the-container) and carry on from there.
 
 <br/>
 
@@ -363,7 +365,7 @@ Next time you go to run a Jupyter Notebook you will not need to repeat the whole
 
 ## <mark> **Windows** </mark>
 
-If you want to install miniconda (recommended approach, go [here](_index.md).)
+If you want to install miniconda (recommended approach, go [here](../software_index.md).)
 
 ## 1. Installation
 
@@ -532,7 +534,7 @@ Everything saved outside the `work` folder will be _destroyed_ as soon as you sh
 
 <br>
 
-Next time you go to run a Jupyter Notebook you will not need to repeat the whole process as you have already installed Docker and the GDS environment. Instead you can start from [Running Python through Docker](#winpro_run) and carry on from there.
+Next time you go to run a Jupyter Notebook you will not need to repeat the whole process as you have already installed Docker and the GDS environment. Instead you can start from [Running Python through Docker](running-the-container) and carry on from there.
 
 <br>
 
