@@ -1,11 +1,11 @@
 # Comprehensive Installation
 
-## 3) A comprehensive approach: the GDS Docker container (slightly more advanced and complicated installation)
+## A comprehensive approach: the GDS Docker container (slightly more advanced and complicated installation)
 
 If meet the following requirements, [Docker](https://www.docker.com/) is a stable alternative and works out of the box:
 
 1. You have admin rights over your machine
-1. You are running either Windows 10 Pro, macOS, or Linux distributions that are supported by Docker.
+2. You are running either Windows 10 Pro, macOS, or Linux distributions that are supported by Docker.
 
 It provides a stable platform to run complex software setups like that required in this context. Docker is a containerisation technology that allows to run pre-packaged (containerised) software under controlled environments. Relying on Docker, the [`gds_env`](https://github.com/darribas/gds_env) project provides a containerised platform for Geographic/Urban Data Science.
 
@@ -13,8 +13,9 @@ This resource provides step-by-step descriptions on how to install and run Pytho
 
 ## <mark> **MacOS Installation** </mark>
 
-
+```{tip}
 If you want to install miniconda (recommended approach, go [here](../software_index.md).)
+```
 
 ## 1. Installation
 
@@ -75,9 +76,9 @@ docker pull darribas/gds:6.1
 
 Dont be alarmed if it seems to take a very long time.
 
-<b>*IMPORTANT*</b>: <br/>
+```{important}
 Make sure you are connected to the internet and it is a stable connection. This step involves the download of large amounts of data (~ 10GB) so it might take a while. However, it only needs to run once.
-
+```
 
 ### Check success
 
@@ -108,9 +109,9 @@ The following sections cover how to start a python session using the docker cont
 You have now started a Python session.
 
 
-<b>*IMPORTANT*</b>: <br/>
+```{warning}
 Please do NOT close the terminal window until you are finished in this Python session.
-
+```
 
 2. To access this session go to your chosen web browser (e.g. Safari/Chrome) and type: `localhost:8888` into the search bar
 
@@ -141,11 +142,9 @@ Please do NOT close the terminal window until you are finished in this Python se
 <br/>
 
 
-<b>*IMPORTANT*</b>: <br/>
-Make sure you save files you want to keep **ONLY** _within_ the `work` folder, as this will ensure they are saved on your machine.
-
-Everything saved outside the `work` folder will be _destroyed_ as soon as you shut down the session.
-
+```{caution}
+Make sure you save files you want to keep **ONLY** _within_ the `work` folder, as this will ensure they are saved on your machine. Everything saved outside the `work` folder will be _destroyed_ as soon as you shut down the session.
+```
 
 
 - You can access other files on your machine through the `work` folder in the File Browser. From here you can navigate to your Documents and designated folder for this module. For example, see below (this will depend on where you have stored the lab notebooks/data/other material for this course)
@@ -190,7 +189,9 @@ Next time you go to run a Jupyter Notebook you will not need to repeat the whole
 
 ## <mark> **Linux Installation** </mark>
 
+```{tip}
 If you want to install miniconda (recommended approach, go [here](../software_index.md).)
+```
 
 ## 1. Installation
 
@@ -247,9 +248,9 @@ docker pull darribas/gds:6.1
 
 You will know this has completed when each line says 'Pull complete'.
 
-<b>IMPORTANT</b>: <br>
+```{important}
 Make sure you are connected to the internet and it is a stable connection. This step involves the download of large amounts of data (ca. 10GB) so it might take a while. However, it only needs to be run once.
-
+```
 
 ### Check success
 
@@ -286,9 +287,9 @@ docker run --rm -ti -p 8888:8888 -v ${PWD}:/home/jovyan/work darribas/gds:6.1
 You have now started a Python session.
 
 
-<b>IMPORTANT</b>: <br>
-
+```{warning}
 Please do NOT close the terminal window until you are finished in this Python session
+```
 
 2. To access this session go to your chosen web browser (e.g. Firefox/Chrome) and type: `localhost:8888` into the search bar
 
@@ -317,12 +318,9 @@ Please do NOT close the terminal window until you are finished in this Python se
 
 <br>
 
-<b>IMPORTANT</b>: <br>
-
-Make sure you save files you want to keep **ONLY** _within_ the `work` folder, as this will ensure they are saved on your machine.
-
-Everything saved outside the `work` folder will be _destroyed_ as soon as you shut down the session.
-
+```{caution}
+Make sure you save files you want to keep **ONLY** _within_ the `work` folder, as this will ensure they are saved on your machine. Everything saved outside the `work` folder will be _destroyed_ as soon as you shut down the session.
+```
 
 - You can save your notebook using **File** > **Save notebook as**
 
@@ -365,7 +363,9 @@ Next time you go to run a Jupyter Notebook you will not need to repeat the whole
 
 ## <mark> **Windows** </mark>
 
+```{tip}
 If you want to install miniconda (recommended approach, go [here](../software_index.md).)
+```
 
 ## 1. Installation
 
@@ -426,9 +426,10 @@ docker pull darribas/gds:6.1
 
 You will know this has completed when each line says 'Pull complete'.
 
-<b>IMPORTANT</b>: <br>
 
+```{important}
 Make sure you are connected to the internet and it is a stable connection. This step involves the download of large amounts of data (ca. 10GB) so it might take a while. However, it only needs to run once.
+```
 
 ### Check success
 
@@ -465,10 +466,9 @@ You have now started a Python session.
 
 
 
-<b>*IMPORTANT*</b>: <br>
-
+```{warning}
 Please do NOT close the PowerShell window until you are finished in this Python session
-
+```
 
 2. To access this session go to your chosen web browser (e.g. Firefox/Chrome) and type: `localhost:8888` into the search bar. You should see something similar to:
 
@@ -497,11 +497,9 @@ Please do NOT close the PowerShell window until you are finished in this Python 
 <br>
 
 
-<b>IMPORTANT</b>: <br>
-
-Make sure you save files you want to keep **ONLY** _within_ the `work` folder, as this will ensure they are saved on your machine.
-
-Everything saved outside the `work` folder will be _destroyed_ as soon as you shut down the session.
+```{caution}
+Make sure you save files you want to keep **ONLY** _within_ the `work` folder, as this will ensure they are saved on your machine. Everything saved outside the `work` folder will be _destroyed_ as soon as you shut down the session.
+```
 
 - You can save your notebook using **File** > **Save notebook as**
 ![Saving Notebook](figs/chp1/Figure13.png)

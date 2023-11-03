@@ -6,7 +6,6 @@
 
 In general,
 
-* We will meet twice a week for 4 hours each with enough breaks
-* **Lectures** are twice a week in the form of interactive discussions for about 1 hour each
-* **Computer Labs** are held once a week for 2 hours
-* **Discussions** are held once a week for 1 hour
+* We will meet twice a week for 4 hours each time with enough breaks.
+* **Lectures** are held twice a week in the form of interactive discussions for about 1 hour each.
+* **Labs** are held twice a week for 2 hours each.

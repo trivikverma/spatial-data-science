@@ -14,7 +14,7 @@ Choose one of the three projects mentioned below,
 - [B](../project/project-02.pdf) : Identifying the Health Vulnerability in a City
 - [C](../project/project-03.pdf) : Modelling COVID-19 in India
 
-Some examples of good assignments from last year are listed below - [Final projects will be subjected to a plagiraism check, so please do not copy the hypothesis and analysis of students from last year].
+Some examples of good assignments from last years are listed below - [Final projects will be subjected to a plagiraism check, so please do not copy the hypothesis and analysis of students from last year].
 
 - [A](../project/AmbulanceCalls_D.pdf) : Ambulance Calls
 - [B](../project/COVID_D.pdf) : COVID
@@ -30,14 +30,14 @@ Form groups of 4 students each. Each student needs to be part of a group. If y
 
 - Be inclusive of people who are not in The Netherlands (ex. Studying from their home country due to COVID restrictions).
 - Strive for diverse groups. (Machine Learning and AI suffer heavily from bias of individuals and communities. Diversity is crucial in meaningful and effective work.) 
-- The most appealing option is to form a group with friends. However, I urge you to spend the first 5 weeks getting to know your peers (I will facilitate that in class) and then form groups where working with each other seems natural.
+- The most appealing option is to form a group with friends. However, I urge you to spend the first 5 weeks getting to know your peers and then form groups where working with each other seems natural.
 - A group of 3 or 5 students will only be accepted as last resort. Please email me with a good motivation in case you want to form such a group.
 - Please email me if you haven't found a group. I will make sure you do. 
 - Keep in constant contact with your group.
 
 **If you have questions,**
 
-We will be meeting with our respective TAs to discuss the final project, questions, problems, and concerns. We will meet between 1100-1300 on Wednesdays during Weeks 8, 9 and 10. Please make sure you organise this meeting with your TAs. 
+We will be meeting with our respective TAs to discuss the final project, questions, problems, and concerns. Please make sure you organise this meeting with your TAs. 
 
 My suggestion is to spend week 7 on data collection and cleaning, problem scoping and getting to know each other, week 8 on EDA, and developing your models, and week 9 and 10 on visualisations, interpretations, and report. 
 

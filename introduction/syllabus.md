@@ -1,44 +1,43 @@
 # Syllabus
 
-The course is divided into a set of interactive lectures, labs and discussions. Lectures are meant to provide students with concepts and theories. Labs are for practising programming in Python and will be self-directed. Discussions are an extremely important part of learning, and students usually bring some great insights from reading research papers.
+The course is divided into a set of interactive lectures and labs. Lectures are meant to provide students with concepts and theories. Labs are self-directed for practising programming in Python. Use this time to complete assignments in class with ample support from TAs.
 
 ## An overview of all course sessions
 
-| Week | Lecture + Discussion | Topic                              | Learning Goals                      | Python Libraries                | Labs and Homework [^1] | Assessment [^2][^3] |
-| ---- | -------------------- | ---------------------------------- | ----------------------------------- | ------------------------------- | -------------------- | --------------- |
-| W1   | L1                   | Introduction to Urban Data Science |                                     | Anaconda and Jupyter, Numpy     | Lab 0 + 1            |                 |
-|      | L2                   | Spatial and Urban Data             |                                     |                                 |                      |                 |
-| W2   | L3 + D1              | Data Grammar                       | Obtain, Discuss                     | Pandas, Seaborn                 | Lab 2                |                 |
-|      | L4                   | Data Engineering                   | Manipulate, consolidate             | Pandas                          |                      | Assignment 1                |
-| W3   | Ommen Trip                   |                                    |                                     |                                 |                      |                 |
-| W4   | L5 + D2              | EDA and Visualisation              | Discuss, manipulate and Consolidate | Geopandas, Matplotlib, Rasterio | Lab 3                |                 |
-|      | L6                   | Geo-Visualisation                  | Interpret                           |                                 |                      |     |
-| W5   | L7 + D3           | Networks and Spatial Weights       | Describe, Analyse                   | Networkx, Osmnx, Pysal          | Lab 4                |                 |
-|      | L8                   | Exploratory Spatial Data Analysis  | Describe, Analyze                   |                                 |                      | Assignment 2                |
-| W6   | L9 + D4              | Machine Learning for Everyone      | Apply                               | Sklearn, Scipy, Statsmodels     | Lab 5                |                 |
-|      | L10                  | Anatomy of a Learning Algorithm    | Infer                               |                                 |                      |     |
-| W7   | L11 + D5             | Clustering                         | Apply                               | Pysal, Sklearn-Cluster          | Lab 6                |                 |
-|      | L12                  | Dimensionality Reduction           | Apply                               |                                 |                      | Assignment 3                 |
-| W8   | L13 + D6             | Spatial Density Estimation         | Infer                               | More Sklearn                    | Lab 7                |                 |
-|      | L14                  | Responsible Data Science           | Create                              |                                 |                      |    |
-| W9   | Project Preparation                   |                                    |                                     |                                 |                      |                 |
-| W10  |                      |                                    |                                     |                                 |                      | Final Project [^4]   |
+|     Week     	|       Lecture       	|                 Topic                	|            Learning Goals           	|         Python Libraries        	| Labs [^1] 	| Assessment [^2][^3] 	|
+|:------------:	|:-------------------:	|:------------------------------------:	|:-----------------------------------:	|:-------------------------------:	|:---------:	|:-------------------:	|
+|      W1      	|          L1         	| Introduction to Spatial Data Science 	|                                     	|   Anaconda and Jupyter, Numpy   	| Lab 0 + 1 	|                     	|
+|              	|          L2         	|        Spatial and Urban Data        	|                                     	|                                 	|     "     	|                     	|
+|      W2      	|          L3         	|             Data Grammar             	|           Obtain, Discuss           	|         Pandas, Seaborn         	|   Lab 2   	|                     	|
+|              	|          L4         	|           Data Engineering           	|       Manipulate, consolidate       	|              Pandas             	|     "     	|                     	|
+|      W3      	|          L5         	|         EDA and Visualisation        	| Discuss, manipulate and Consolidate 	| Geopandas, Matplotlib, Rasterio 	|   Lab 3   	|     Assignment 1    	|
+|              	|          L6         	|           Geo-Visualisation          	|              Interpret              	|                                 	|     "     	|                     	|
+|      W4      	|          L7         	|     Networks and Spatial Weights     	|          Describe, Analyse          	|      Networkx, Osmnx, Pysal     	|   Lab 4   	|                     	|
+|              	|          L8         	|   Exploratory Spatial Data Analysis  	|          Describe, Analyze          	|                                 	|     "     	|                     	|
+|      W5      	|          L9         	|     Machine Learning for Everyone    	|                Apply                	|   Sklearn, Scipy, Statsmodels   	|   Lab 5   	|     Assignment 2    	|
+|              	|         L10         	|    Anatomy of a Learning Algorithm   	|                Infer                	|                                 	|     "     	|                     	|
+|      W6      	|         L11         	|              Clustering              	|                Apply                	|      Pysal, Sklearn-Cluster     	|   Lab 6   	|                     	|
+|              	|         L12         	|       Dimensionality Reduction       	|                Apply                	|                                 	|     "     	|                     	|
+| Winter Break 	|                     	|                                      	|                                     	|                                 	|           	|                     	|
+|      W7      	|         L13         	|      Spatial Density Estimation      	|                Infer                	|           More Sklearn          	|   Lab 7   	|     Assignment 3    	|
+|              	|         L14         	|       Responsible Data Science       	|                Create               	|                                 	|     "     	|                     	|
+|      W8      	| Project Preparation 	|                                      	|                                     	|                                 	|           	|                     	|
+|      W10     	|                     	|                                      	|                                     	|                                 	|           	|  Final Project [^4] 	|
 
-[^1]: In-class Labs are interactive Jupyter notebooks for learning how to program. Each lab is accompanied by homework exercises for practice. The only the way to learn how to program is by practicing it. Homeworks are not graded, but your peers could give you feedback. We will provide some tips to facilitate this. Constructive feedback from other people is an excellent way to learn.
-[^2]: Graded Assignments are individual activities and are released two weeks prior on Monday. Due at the end of the specified working week on Friday at 2330.
-[^3]: Grades and feedback released two weeks after on Wednesday at 1800.
+[^1]: Labs are interactive Jupyter notebooks for practicing programming. Each lab is accompanied by homework exercises for practice. Homeworks are not graded, but your peers could give you feedback and they are meant to be done in the lab sessions. We will provide some tips to facilitate this. Constructive feedback from other people is an excellent way to learn.
+[^2]: Graded Assignments are individual activities. Assignments are due on Tuesdays at 1800 of the specified week above.
+[^3]: Grades and feedback released a week after submission on Fridays at 1800.
 [^4]: Final Project is a group activity.
 
 ## Format
 
 Seven weeks of:
 
-- **Prep. Materials**: videos, podcasts, articles... 1h. approx. (most recommended!)
-- **2x 1h. Lectures**: concepts, methods, examples
-- **1h. Paper Discussions**: reading a paper and debating a set of questions with your peers in small groups. (extremely important if you are interested in applying concepts to real-world problems). Please read the paper before coming to the discussion session so you can have a more informed and informal debate with your peers.
-- **2h. Computer labs**: hands-on, application of concepts, Python
+- **At-home Prep. Materials**: videos, podcasts, articles... 1h. approx. (most recommended!)
+- **2x 1h. Lectures**: concepts, methods, examples, crtiical discussions
+- **2x 2h. Labs**: hands-on, application of concepts, Python
   (highly *employable*)
-- **Further readings**: how to go beyond this course
+- **Further readings (optional!)**: how to go beyond this course
 
 ## Content
 
@@ -49,9 +48,9 @@ Seven weeks of:
 
 ## Logistics
 
-- **Course Material**: [This website](https://cusp.tbm.tudelft.nl/courses/epa1316/)
+- **Course Material**: This website only!
 - **Recordings of Lectures**: Lectures are not recorded.
-- **Announcements, Discussion Forums, Submission + Feedback, Group Formation + Peer Review and Grading**: Brightspace
+- **Announcements, Submission + Feedback, Group Formation + Peer Review and Grading**: Brightspace
 
 ## Self-directed learning
 
@@ -73,14 +72,13 @@ The **summative** [assessments](../assessment_index.md) are `graded` components 
 
 ## A note on exams
 
-This course has no exams. Time-constrained exams do not measure learning. Putting students under high-stakes environments only benefit those who can recall knowledge under pressure. In my opinion, that is a uselesss life-skill.
+Time-constrained exams do not measure any learning. Putting students under high-stakes environments only benefit those who can recall knowledge under pressure and is a filtering mechanism. In my opinion, that is a uselesss life-skill. This course **does not have any exams**.
 
 ## More help!!!
 
 This course is much more about **"learning to learn"** and **problem
-solving** rather than acquiring specific programming tricks or stats wizardry
+solving** rather than acquiring specific programming tricks or stats wizardry.
 
 - Learn to **ask** questions (but don't expect exact answers all the time!!!)
 - **Help** others as much as you can (the best way to learn is to teach)
-- **Search** heavily on Google + Stack Overflow
-- **Discussion Forum**: students are encouraged to contribute *meaningfully* to the online discussion forum set up for the course on Brightspace. *Meaningful* contributions include both questions and answers that demonstrate the student is committed to make the forum a more useful resource for the rest of the group. This also enables your peers to learn from your questions and help each other.
+- **Search** heavily on your favorite browser, search engine, large language model + stack overflow (be mindful that chatGPT is a [stochastic parrot](https://dl.acm.org/doi/10.1145/3442188.3445922) and cannot replace humans in critical thinking, learning and inference)

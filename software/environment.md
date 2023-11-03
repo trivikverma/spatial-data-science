@@ -5,7 +5,9 @@ Data Science sometimes requires the ability to be able to handle the overlapping
 To circumvent these troubling issues that recur and to become good at the craft, let us take a look at using virtual environments. Virtual environments can be characterized as empty places that are isolated from the local source and a place you can install new packages (different versions or whatnot).
 
 
-*Note:* It is recommended that for you create new virtual environments for each project to isolate their functionality and dependencies from each other. This will save you a lot of headache in the future. Senior batches of EPA have always regretted not doing this.
+```{tip}
+It is recommended that for you create new virtual environments for each project to isolate their functionality and dependencies from each other. This will save you a lot of headache in the future. Past batches of EPA have always regretted not doing this.
+```
 
 ## Virtual Environments with Anaconda
 

@@ -19,12 +19,12 @@
   </script>
   
   <!-- Loaded before other Sphinx assets -->
-  <link href="../_static/styles/theme.css?digest=e353d410970836974a52" rel="stylesheet" />
-<link href="../_static/styles/bootstrap.css?digest=e353d410970836974a52" rel="stylesheet" />
-<link href="../_static/styles/pydata-sphinx-theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+  <link href="../_static/styles/theme.css?digest=365ca57ee442770a23c6" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=365ca57ee442770a23c6" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=365ca57ee442770a23c6" rel="stylesheet" />
 
   
-  <link href="../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=e353d410970836974a52" rel="stylesheet" />
+  <link href="../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=365ca57ee442770a23c6" rel="stylesheet" />
   <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
 <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
 <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
@@ -38,8 +38,9 @@
     <link rel="stylesheet" type="text/css" href="../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=e353d410970836974a52" />
-<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52" />
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=365ca57ee442770a23c6" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=365ca57ee442770a23c6" />
+  <script src="../_static/vendor/fontawesome/6.1.2/js/all.min.js?digest=365ca57ee442770a23c6"></script>
 
     <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
     <script src="../_static/jquery.js"></script>
@@ -77,6 +78,15 @@ const thebe_selector_output = ".output, .cell_output"
   
   
   <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
+
   
   <input type="checkbox"
           class="sidebar-toggle"
@@ -137,13 +147,14 @@ const thebe_selector_output = ".output, .cell_output"
   
   
   
+  
     
     
       
     
     
-    <img src="../_static/logo.png" class="logo__image only-light" alt="Logo image"/>
-    <script>document.write(`<img src="../_static/logo.png" class="logo__image only-dark" alt="Logo image"/>`);</script>
+    <img src="../_static/logo.png" class="logo__image only-light" alt="EPA122A - Home"/>
+    <script>document.write(`<img src="../_static/logo.png" class="logo__image only-dark" alt="EPA122A - Home"/>`);</script>
   
   
 </a></div>
@@ -153,7 +164,7 @@ const thebe_selector_output = ".output, .cell_output"
         <ul class="nav bd-sidenav bd-sidenav__home-link">
             <li class="toctree-l1">
                 <a class="reference internal" href="../_index.html">
-                    EPA 1316 A Introduction to Urban Data Science
+                    EPA 122A Spatial Data Science
                 </a>
             </li>
         </ul>
@@ -171,12 +182,9 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l1 has-children"><a class="reference internal" href="../assessment_index.html">Assessment</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="../assessment/assignment.html">Assignments</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../assessment/final-project.html">Final Project</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../assessment/project-details.html">Project Details</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../assessment/project-template.html">Project Template</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../assignments_index.html">Assignments</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../faq_index.html">FAQ</a></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="../software_index.html">Software</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-3"><i class="fa-solid fa-chevron-down"></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="../software/1-standard.html">Standard Installation</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../software/2-minimalist.html">Minimalist Installation</a></li>
@@ -184,13 +192,8 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l2"><a class="reference internal" href="../software/environment.html">Virtual Environments</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../resources_index.html">Helping Material</a></li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="../project_index.html">Project Details</a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-4"><i class="fa-solid fa-chevron-down"></i></label><ul>
-<li class="toctree-l2"><a class="reference internal" href="../project/project-01.html"><img src="https://raw.githubusercontent.com/trivikverma/researchgroup/master/static/media/resources/epa1316/TU_descriptor%20black.png" style="float: left; padding-right: 10px; width: 80px"/> EPA-1316 Introduction to <em>Urban</em> Data Science</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../project/project-02.html"><img src="https://raw.githubusercontent.com/trivikverma/researchgroup/master/static/media/resources/epa1316/TU_descriptor%20black.png" style="float: left; padding-right: 10px; width: 80px"/> EPA-1316 Introduction to <em>Urban</em> Data Science</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../project/project-03.html"><img src="https://raw.githubusercontent.com/trivikverma/researchgroup/master/static/media/resources/epa1316/TU_descriptor%20black.png" style="float: left; padding-right: 10px; width: 80px"/> EPA-1316 Introduction to <em>Urban</em> Data Science</a></li>
-</ul>
-</li>
+<li class="toctree-l1"><a class="reference internal" href="../resources_index.html">Helping Material ch</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../faq_index.html">FAQ</a></li>
 </ul>
 
     </div>
@@ -346,10 +349,10 @@ const thebe_selector_output = ".output, .cell_output"
 
 <script>
 document.write(`
-  <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
-    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
-    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
   </button>
 `);
 </script>
@@ -357,7 +360,7 @@ document.write(`
 <script>
 document.write(`
   <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <i class="fa-solid fa-magnifying-glass"></i>
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
   </button>
 `);
 </script>
@@ -384,9 +387,9 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#what-is-urban-data-science">What is Urban Data Science?</a><ul class="nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#what-is-spatial-data-science">What is Spatial Data Science?</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#urbanisation">Urbanisation</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#urban-data">Urban Data</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#spatial-data">Spatial Data</a></li>
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#course-contents-what-is-this-class-about">Course Contents — What is this class about?</a></li>
@@ -404,22 +407,22 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="overview">
 <h1>Overview<a class="headerlink" href="#overview" title="Permalink to this heading">#</a></h1>
-<section id="what-is-urban-data-science">
-<h2>What is Urban Data Science?<a class="headerlink" href="#what-is-urban-data-science" title="Permalink to this heading">#</a></h2>
+<section id="what-is-spatial-data-science">
+<h2>What is Spatial Data Science?<a class="headerlink" href="#what-is-spatial-data-science" title="Permalink to this heading">#</a></h2>
 <section id="urbanisation">
 <h3>Urbanisation<a class="headerlink" href="#urbanisation" title="Permalink to this heading">#</a></h3>
-<p>Historically, humans have always migrated to dense spatial agglomerations for social interactions, exchange of goods, services, information and ideas. Globally, cities are expected to accommodate over 80% of the world population by 2050. The unprecedented development is tightly linked to the most pressing functional and environmental challenges of our time.</p>
+<p>Historically, humans have always migrated to dense spatial agglomerations for social interactions, exchange of goods, services, information and ideas. These spaces also witness growing inequalities. Globally, this trend is holding stead, and cities are expected to accommodate over 80% of the world population by 2050. The unprecedented development is tightly linked to the most pressing functional and environmental challenges confronting society.</p>
 <p>Multiple cities in the world are at the brink of collapse, suffering from poverty and segregation, excessive consumption, pollution and associated changes in climate, depleting agricultural utility and in exceptional cases, submergence of land. Lacking resources to solve such problems, some cities are directing further development to satellite centres like Accra in Ghana or Cairo in Egypt. Jakarta, home to 60% of the Indonesian population, is considering relocating its capital city to the rainforests of Borneo because of rising sea levels. Rapidly urbanising cities are also making tremendous efforts to become smarter, sustainable, resilient and inclusive. But how? Transforming from a manufacturing to an information economy in the last few decades, urban regions around the world have witnessed ever-increasing inequalities. Multiple low-income communities have suffered adverse social, economic and environmental consequences, while others have been pushed into worse forms of inequality.</p>
 </section>
-<section id="urban-data">
-<h3>Urban Data<a class="headerlink" href="#urban-data" title="Permalink to this heading">#</a></h3>
-<p>In the last decade, technological advancements have led us to embed large-scale networked systems, sensors and computers into the built environment. Urban data has emerged as an excellent stream of constant, real-time and accurate information about all urban activities. The big data revolution, coupled with the capacity of infrastructure to be “smart” has enticed cities and urban managers worldwide to participate in machine learning-based decision making for improving the course of humanity. But city planning has largely been instituted around loosely coupled organisations within municipal and regional governments, project developers, companies and investors, transport, water and energy operators. While some communities have enjoyed the benefits of policies based on the use of big data, machine learning and AI, many have also suffered disproportionately by being pushed to the physical and technological periphery of rapid development in cities. As a data scientist, and especially an engineer and policy analyst, it is our responsibility to interrogate the quality of data, research the design of intelligent systems and evaluate their impact on communities.</p>
+<section id="spatial-data">
+<h3>Spatial Data<a class="headerlink" href="#spatial-data" title="Permalink to this heading">#</a></h3>
+<p>In the last decade, technological advancements have led us to embed large-scale networked systems, sensors and computers into the built environment. Urban data has emerged as an excellent stream of constant, real-time and accurate information about all urban activities. The big data revolution, coupled with the capacity of infrastructure to be “smart” has enticed cities and urban managers worldwide to participate in machine learning-based decision making for improving the course of humanity. But city planning has largely been instituted around loosely coupled organisations within municipal and regional governments, project developers, companies and investors, transport, water and energy operators. While some communities have enjoyed the benefits of policies based on the use of big data, machine learning and AI, many have also suffered disproportionately by being pushed to the physical and technological periphery of rapid development in cities. As a data scientist, and especially an engineer and policy analyst, it is our responsibility to interrogate the quality of data and evaluate their impact on communities. Furthermore, it is imperative to understand how <strong>data science contributes to the social mechanisms that reproduce inequality, oppression, racism, and politics and power dynamics, and production of good knowledge</strong>.</p>
 </section>
 </section>
 <section id="course-contents-what-is-this-class-about">
 <h2>Course Contents — What is this class about?<a class="headerlink" href="#course-contents-what-is-this-class-about" title="Permalink to this heading">#</a></h2>
-<p>The primary purpose of this course is to teach future data scientists to look beyond the technical power of artificial intelligence and recognise the possibilities and limitations of data and the spatial inequalities that galvanise as a result of data-driven policy. This course will engage students at the intersection of data science, urbanisation, and effective communication. By interrogating the sociotechnical nature of urban problems, students should then be able to approach solutions to these problems in ways that prioritise social equity and justice.</p>
-<p>This class will train students to gather, fuse and clean data from multiple sources, in order to gain useful insights into the reality of multiple problems in urban ecosystems, understand and estimate alternative implications of solutions and communicate results to a wide audience effectively.</p>
+<p>The primary purpose of this course is to teach future data scientists to look beyond the technical power of artificial intelligence and recognise the possibilities and limitations of data and the spatial inequalities that galvanise as a result of data-driven policy. This course will engage students at the intersection of data science, urbanisation, and effective communication. By interrogating the sociotechnical nature of urban problems, students should be able to approach solutions to these problems in ways that prioritise social equity and justice.</p>
+<p>This class will train students to gather, fuse and clean data from multiple sources, in order to gain useful insights into the reality of multiple problems in urban ecosystems, understand and estimate alternative implications of solutions, and communicate results to a wide audience effectively.</p>
 <p>The course is divided into five major modules, each focusing on crucial steps in the lifecycle of a data science project.</p>
 <ol class="arabic simple">
 <li><p>Obtain: Obtaining data from multiple <strong>open</strong> data sources.</p></li>
@@ -439,7 +442,6 @@ document.write(`
 <li><p>apply models using statistical and machine learning to infer results in the process of turning data into valuable information.</p></li>
 <li><p>report results and reflections through visualisation, storytelling and interpretable summaries, especially when faced with a new dataset.</p></li>
 </ul>
-<p>… and hopefully get great data-driven policy jobs in the future where you can address issues of equity, or go on adventurous travels with an open mind.</p>
 </section>
 </section>
 
@@ -468,11 +470,10 @@ document.write(`
 
               
               
-                <footer class="bd-footer-article">
-                  
-<div class="footer-article-items footer-article__inner">
-  
-    <div class="footer-article-item"><!-- Previous / next buttons -->
+              
+              
+                <footer class="prev-next-footer">
+                  <!-- Previous / next buttons -->
 <div class="prev-next-area">
     <a class="left-prev"
        href="tobeginwith.html"
@@ -492,10 +493,7 @@ document.write(`
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
-</div></div>
-  
 </div>
-
                 </footer>
               
             </div>
@@ -510,9 +508,9 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#what-is-urban-data-science">What is Urban Data Science?</a><ul class="nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#what-is-spatial-data-science">What is Spatial Data Science?</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#urbanisation">Urbanisation</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#urban-data">Urban Data</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#spatial-data">Spatial Data</a></li>
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#course-contents-what-is-this-class-about">Course Contents — What is this class about?</a></li>
@@ -531,7 +529,7 @@ document.write(`
   <div class="footer-item">
     
 <p class="component-author">
-By Nachi
+By Trivik Verma
 </p>
 
   </div>
@@ -564,8 +562,8 @@ By Nachi
   </div>
   
   <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script src="../_static/scripts/bootstrap.js?digest=e353d410970836974a52"></script>
-<script src="../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52"></script>
+  <script src="../_static/scripts/bootstrap.js?digest=365ca57ee442770a23c6"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=365ca57ee442770a23c6"></script>
 
   <footer class="bd-footer">
   </footer>

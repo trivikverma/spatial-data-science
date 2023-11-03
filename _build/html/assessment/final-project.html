@@ -19,12 +19,12 @@
   </script>
   
   <!-- Loaded before other Sphinx assets -->
-  <link href="../_static/styles/theme.css?digest=e353d410970836974a52" rel="stylesheet" />
-<link href="../_static/styles/bootstrap.css?digest=e353d410970836974a52" rel="stylesheet" />
-<link href="../_static/styles/pydata-sphinx-theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+  <link href="../_static/styles/theme.css?digest=365ca57ee442770a23c6" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=365ca57ee442770a23c6" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=365ca57ee442770a23c6" rel="stylesheet" />
 
   
-  <link href="../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=e353d410970836974a52" rel="stylesheet" />
+  <link href="../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=365ca57ee442770a23c6" rel="stylesheet" />
   <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
 <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
 <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
@@ -38,8 +38,9 @@
     <link rel="stylesheet" type="text/css" href="../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=e353d410970836974a52" />
-<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52" />
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=365ca57ee442770a23c6" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=365ca57ee442770a23c6" />
+  <script src="../_static/vendor/fontawesome/6.1.2/js/all.min.js?digest=365ca57ee442770a23c6"></script>
 
     <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
     <script src="../_static/jquery.js"></script>
@@ -65,7 +66,7 @@ const thebe_selector_output = ".output, .cell_output"
     <script>DOCUMENTATION_OPTIONS.pagename = 'assessment/final-project';</script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Project Details" href="project-details.html" />
+    <link rel="next" title="Project Template" href="project-template.html" />
     <link rel="prev" title="Assignments" href="assignment.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
@@ -77,6 +78,15 @@ const thebe_selector_output = ".output, .cell_output"
   
   
   <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
+
   
   <input type="checkbox"
           class="sidebar-toggle"
@@ -137,13 +147,14 @@ const thebe_selector_output = ".output, .cell_output"
   
   
   
+  
     
     
       
     
     
-    <img src="../_static/logo.png" class="logo__image only-light" alt="Logo image"/>
-    <script>document.write(`<img src="../_static/logo.png" class="logo__image only-dark" alt="Logo image"/>`);</script>
+    <img src="../_static/logo.png" class="logo__image only-light" alt="EPA122A - Home"/>
+    <script>document.write(`<img src="../_static/logo.png" class="logo__image only-dark" alt="EPA122A - Home"/>`);</script>
   
   
 </a></div>
@@ -153,7 +164,7 @@ const thebe_selector_output = ".output, .cell_output"
         <ul class="nav bd-sidenav bd-sidenav__home-link">
             <li class="toctree-l1">
                 <a class="reference internal" href="../_index.html">
-                    EPA 1316 A Introduction to Urban Data Science
+                    EPA 122A Spatial Data Science
                 </a>
             </li>
         </ul>
@@ -171,12 +182,9 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l1 current active has-children"><a class="reference internal" href="../assessment_index.html">Assessment</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="assignment.html">Assignments</a></li>
 <li class="toctree-l2 current active"><a class="current reference internal" href="#">Final Project</a></li>
-<li class="toctree-l2"><a class="reference internal" href="project-details.html">Project Details</a></li>
 <li class="toctree-l2"><a class="reference internal" href="project-template.html">Project Template</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../assignments_index.html">Assignments</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../faq_index.html">FAQ</a></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="../software_index.html">Software</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-3"><i class="fa-solid fa-chevron-down"></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="../software/1-standard.html">Standard Installation</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../software/2-minimalist.html">Minimalist Installation</a></li>
@@ -184,13 +192,8 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l2"><a class="reference internal" href="../software/environment.html">Virtual Environments</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../resources_index.html">Helping Material</a></li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="../project_index.html">Project Details</a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-4"><i class="fa-solid fa-chevron-down"></i></label><ul>
-<li class="toctree-l2"><a class="reference internal" href="../project/project-01.html"><img src="https://raw.githubusercontent.com/trivikverma/researchgroup/master/static/media/resources/epa1316/TU_descriptor%20black.png" style="float: left; padding-right: 10px; width: 80px"/> EPA-1316 Introduction to <em>Urban</em> Data Science</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../project/project-02.html"><img src="https://raw.githubusercontent.com/trivikverma/researchgroup/master/static/media/resources/epa1316/TU_descriptor%20black.png" style="float: left; padding-right: 10px; width: 80px"/> EPA-1316 Introduction to <em>Urban</em> Data Science</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../project/project-03.html"><img src="https://raw.githubusercontent.com/trivikverma/researchgroup/master/static/media/resources/epa1316/TU_descriptor%20black.png" style="float: left; padding-right: 10px; width: 80px"/> EPA-1316 Introduction to <em>Urban</em> Data Science</a></li>
-</ul>
-</li>
+<li class="toctree-l1"><a class="reference internal" href="../resources_index.html">Helping Material ch</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../faq_index.html">FAQ</a></li>
 </ul>
 
     </div>
@@ -346,10 +349,10 @@ const thebe_selector_output = ".output, .cell_output"
 
 <script>
 document.write(`
-  <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
-    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
-    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
   </button>
 `);
 </script>
@@ -357,7 +360,7 @@ document.write(`
 <script>
 document.write(`
   <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <i class="fa-solid fa-magnifying-glass"></i>
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
   </button>
 `);
 </script>
@@ -419,7 +422,7 @@ document.write(`
 <li><p><a class="reference download internal" download="" href="../_downloads/3bb80e3b565ccdd50bd67c8d5ef83b8e/project-02.pdf"><span class="xref download myst">B</span></a> : Identifying the Health Vulnerability in a City</p></li>
 <li><p><a class="reference download internal" download="" href="../_downloads/0578add8567d5efe5af12c7a59b513a1/project-03.pdf"><span class="xref download myst">C</span></a> : Modelling COVID-19 in India</p></li>
 </ul>
-<p>Some examples of good assignments from last year are listed below - [Final projects will be subjected to a plagiraism check, so please do not copy the hypothesis and analysis of students from last year].</p>
+<p>Some examples of good assignments from last years are listed below - [Final projects will be subjected to a plagiraism check, so please do not copy the hypothesis and analysis of students from last year].</p>
 <ul class="simple">
 <li><p><a class="reference download internal" download="" href="../_downloads/e5bbd3d6f30be30c3bfa8025fa1e2da7/AmbulanceCalls_D.pdf"><span class="xref download myst">A</span></a> : Ambulance Calls</p></li>
 <li><p><a class="reference download internal" download="" href="../_downloads/a758fd7ab09211683e59d2fc5b198fa7/COVID_D.pdf"><span class="xref download myst">B</span></a> : COVID</p></li>
@@ -436,13 +439,13 @@ document.write(`
 <ul class="simple">
 <li><p>Be inclusive of people who are not in The Netherlands (ex. Studying from their home country due to COVID restrictions).</p></li>
 <li><p>Strive for diverse groups. (Machine Learning and AI suffer heavily from bias of individuals and communities. Diversity is crucial in meaningful and effective work.)</p></li>
-<li><p>The most appealing option is to form a group with friends. However, I urge you to spend the first 5 weeks getting to know your peers (I will facilitate that in class) and then form groups where working with each other seems natural.</p></li>
+<li><p>The most appealing option is to form a group with friends. However, I urge you to spend the first 5 weeks getting to know your peers and then form groups where working with each other seems natural.</p></li>
 <li><p>A group of 3 or 5 students will only be accepted as last resort. Please email me with a good motivation in case you want to form such a group.</p></li>
 <li><p>Please email me if you haven’t found a group. I will make sure you do.</p></li>
 <li><p>Keep in constant contact with your group.</p></li>
 </ul>
 <p><strong>If you have questions,</strong></p>
-<p>We will be meeting with our respective TAs to discuss the final project, questions, problems, and concerns. We will meet between 1100-1300 on Wednesdays during Weeks 8, 9 and 10. Please make sure you organise this meeting with your TAs.</p>
+<p>We will be meeting with our respective TAs to discuss the final project, questions, problems, and concerns. Please make sure you organise this meeting with your TAs.</p>
 <p>My suggestion is to spend week 7 on data collection and cleaning, problem scoping and getting to know each other, week 8 on EDA, and developing your models, and week 9 and 10 on visualisations, interpretations, and report.</p>
 <p>If there are any questions about the final projects, please reach out to your TAs directly.</p>
 </section>
@@ -502,11 +505,10 @@ you used to explore the data (initial explorations, data cleaning and reconcilia
 
               
               
-                <footer class="bd-footer-article">
-                  
-<div class="footer-article-items footer-article__inner">
-  
-    <div class="footer-article-item"><!-- Previous / next buttons -->
+              
+              
+                <footer class="prev-next-footer">
+                  <!-- Previous / next buttons -->
 <div class="prev-next-area">
     <a class="left-prev"
        href="assignment.html"
@@ -518,18 +520,15 @@ you used to explore the data (initial explorations, data cleaning and reconcilia
       </div>
     </a>
     <a class="right-next"
-       href="project-details.html"
+       href="project-template.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Project Details</p>
+        <p class="prev-next-title">Project Template</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
-</div></div>
-  
 </div>
-
                 </footer>
               
             </div>
@@ -567,7 +566,7 @@ you used to explore the data (initial explorations, data cleaning and reconcilia
   <div class="footer-item">
     
 <p class="component-author">
-By Nachi
+By Trivik Verma
 </p>
 
   </div>
@@ -600,8 +599,8 @@ By Nachi
   </div>
   
   <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script src="../_static/scripts/bootstrap.js?digest=e353d410970836974a52"></script>
-<script src="../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52"></script>
+  <script src="../_static/scripts/bootstrap.js?digest=365ca57ee442770a23c6"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=365ca57ee442770a23c6"></script>
 
   <footer class="bd-footer">
   </footer>

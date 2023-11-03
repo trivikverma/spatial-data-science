@@ -1,27 +1,44 @@
-# Lectures
+# 🧐 Lectures
 
-*A GUIDE TO FOLLOW THIS PAGE :*
+```{admonition} Table of Contents! 👇🏽
+:class: dropdown
+
+1. [Lecture 1: Introduction to _Spatial_ Data Science](#lecture-1-introduction-to-spatial-data-science)
+2. [Lecture 2: Spatial and Urban Data](#lecture-2---spatial-and-urban-data)
+3. [Lecture 3: Data Grammar](#lecture-3---data-grammar)
+4. [Lecture 4: Data Engineering](#lecture-4---data-engineering)
+5. [Lecture 5 EDA and Visualisation:](#lecture-5---eda-and-visualisation)
+6. [Lecture 6: Geo-Visualisation](#lecture-6---geo-visualisation)
+7. [Lecture 7: Networks and Spatial Weights](#lecture-7---networks-and-spatial-weights)
+8. [Lecture 8: Exploratory Spatial Data Analysis](#lecture-8---exploratory-spatial-data-analysis)
+9. [Lecture 9: Machine Learning for Everyone](#lecture-9---machine-learning-for-everyone)
+10. [Lecture 10: Anatomy of a Learning Algorithm](#lecture-10---anatomy-of-a-learning-algorithm)
+11. [Lecture 11: Clustering](#lecture-11---clustering)
+12. [Lecture 12: Dimensionality Reduction](#lecture-12---dimensionality-reduction)
+13. [Lecture 13: Spatial Density Estimation](#lecture-13---spatial-density-estimation)
+14. [Lecture 14: Responsible Data Science](#lecture-14---responsible-data-science)
+```
+
+```{tip}
+*A GUIDE TO FOLLOW THIS PAGE*
 
 - The slides will be updated latest a night before the lecture in **pdf** format.
 - Lectures will not be recorded or delivered online.
-- The section **To do before class** provides content that is useful for following the lectures. I expect you to follow it before every lecture. It will take about 1 hour of prep.
-- Section **Extra Material** is exactly that. It is **not required** for this course but can prove really helpful for gaining extra knowledge either during or after this course. Sometimes I use it to build the contents of the lecture and at others I find them helpful in my research related to the weekly topics but I will never question your knowledge on that.
-
+- The section **To do before class** provides content that is useful for following the lectures. I expect you to follow it before every lecture. It will take about 1 hour of prep at home.
+- Section **Extra Material** is exactly extra. It is **not required** for this course but can prove really helpful for gaining extra knowledge either during or after this course. Sometimes I use it to build the contents of the lecture and at others I find them helpful in my research related to the weekly topics but I will never question your knowledge on that.
+```
 
 ***
-
 
 # Let's begin
 
-Before starting this course, watch [this video](https://www.youtube.com/watch?v=8jqEj8XUPlk&t=80s) by Khalid Kadir about a reflection on poverty (an example of a social problem), expertise and equity. This representation is an example of how experts create boxes around their craft. As a data scientist or a future expert (consultant, data analyst, policymaker, etc.), it is our responsibility to step out of those boxes and engage with communities to strive for just outcomes.
+Before starting the course, watch [this video](https://www.youtube.com/watch?v=8jqEj8XUPlk&t=80s) by Khalid Kadir about a reflection on poverty (an example of a social problem), expertise and equity. This representation is an example of how experts create boxes around their craft. As a data scientist or a future expert (consultant, data analyst, policymaker, etc.), it is our responsibility to step out of those boxes and engage with communities to strive for just outcomes. If you have seen this video, send me a meme about poverty, inequality and data. The best submission will win a prize at the end of the course.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8jqEj8XUPlk" frameborder="0" allowfullscreen></iframe>
 
-
 ***
 
-
-## Lecture 1 - Introduction to Urban Data Science
+## Lecture 1 - Introduction to Spatial Data Science
 
 - [pdf](lectures/01-introduction.pdf)
 - [pdf-continued](lectures/01-introduction-continued.pdf)
@@ -38,19 +55,11 @@ As a way to whet your appetite about the content of the first class, I recommend
 
 ### Extra Material [Always to learn more but never needed for the course]
 
-The contents of this lecture are loosely based on, and explored into further detail, in the following four references :
-
 * "Chapter 1: Introduction" (Schutt & O’Neil, 2013). Free sampler of the book containing the chapter available online ([html](http://shop.oreilly.com/product/0636920028529.do), [pdf](http://cdn.oreillystatic.com/oreilly/booksamplers/9781449358655_sampler.pdf)).
-* Excellent overview of Data Science (Donoho, 2017).
-* A Geographic take on Data Science, proposing a new field (Singleton & Arribas-Bel, 2019).
-* [A critical approach to Data Science for Cities](https://hdsr.mitpress.mit.edu/pub/1um18ajd/release/2)
-
-### References
-
-1. Schutt, R., & O’Neil, C. (2013). Doing data science: Straight talk from the frontline. “ O’Reilly Media, Inc.”
-2. Donoho, D. (2017). 50 years of data science. Journal of Computational and Graphical Statistics, 26(4), 745–766.
-3. Singleton, A., & Arribas-Bel, D. (2019). Geographic Data Science. Geographical Analysis.
-
+* Read this critical argument about objectivity and positionality: [How Does Your Positionality Bias Your
+Epistemology?](https://repository.uclawsf.edu/cgi/viewcontent.cgi?article=2260&context=faculty_scholarship)
+* A Geographic take on Data Science, proposing a new field called [Geographic Data Science](https://doi.org/10.1111/gean.12194)
+* Read this short critical piece called [Making Space in Geographical Analysis](https://doi.org/10.1111/gean.12325)
 
 ***
 
@@ -65,24 +74,14 @@ The contents of this lecture are loosely based on, and explored into further det
 
 * Watch the [TED talk](https://www.youtube.com/watch?v=CijsvAGU6-c) by Carlo Rati about MIT's SENSEable City Lab projects: excellent set of examples
 * Read the [New York Times piece](https://www.nytimes.com/interactive/2018/10/12/us/map-of-every-building-in-the-united-states.html) on US buildings map
-* Explore the [GHSL](https://ghsl.jrc.ec.europa.eu/index.php) Dataset, by the European Commission
+* Explore the [Global Human Settlement Layer](https://ghsl.jrc.ec.europa.eu/index.php) Dataset, by the European Commission
 
 ### Extra Material [Always to learn more but never needed for the course]
 
-* The part of the lecture on new sources of data relies on (Arribas-Bel, 2014) and (Lazer & Radford, 2017).
-* (Goodchild, 2007): a classic on the rise of volunteered geographic information.
-* (Kitchin, 2014): recent book on the data revolution from a Social Science/Human geography perspective.
-
-### References
-
-1. Arribas-Bel, D. (2014). Accidental, open and everywhere: Emerging data sources for the understanding of cities. Applied Geography, 49, 45–53.
-2. Lazer, D., & Radford, J. (2017). Data ex Machina: Introduction to Big Data. Annual Review of Sociology, (0).
-3. Goodchild, M. F. (2007). Citizens as sensors: the world of volunteered geography. GeoJournal, 69(4), 211–221.
-4. Kitchin, R. (2014). The data revolution: Big data, open data, data infrastructures and their consequences. Sage.
-
+* The part of the lecture on new sources of data relies on [Arribas-Bel, 2014](https://doi.org/10.1016/j.apgeog.2013.09.012) and [Lazer & Radford, 2017](https://doi.org/10.1146/annurev-soc-060116-053457).
+* A classic on the rise of [volunteered geographic information](https://doi.org/10.1007/s10708-007-9111-y).
 
 ***
-
 
 ## Lecture 3 - Data Grammar
 
@@ -94,14 +93,13 @@ The contents of this lecture are loosely based on, and explored into further det
 
 * Read a very influential pro-big data/data science article, [The End of Theory](https://www.wired.com/2008/06/pb-theory/) by Chris Anderson, the editor in chief of _Wired_.
 * Read [A reflexive call of caution](https://science.sciencemag.org/content/343/6176/1203) on Big Data Analytics by David Lazer _et al._
+* Read [Creating healthy and sustainable cities: what gets measured, gets done ](https://doi.org/10.1016/s2214-109x(22)00070-5).
 
 ### Extra Material [Always to learn more but never needed for the course]
 
 * A cheatsheet (such a misnomer -- nobody is cheating and it is a helpful and beautiful resource) on [Data Wrangling with Pandas](https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf) that you may want to stick to your wall or put as your screensaver to save time on finding useful and operational codes.
 
-
 ***
-
 
 ## Lecture 4 - Data Engineering
 
@@ -134,23 +132,16 @@ The contents of this lecture are loosely based on, and explored into further det
 
 ### To do before class [Takes about 1 hour of prep at home]
 
-* [Think about the grammar of graphics when improving your graphs](https://medium.com/tdebeus/think-about-the-grammar-of-graphics-when-improving-your-graphs-18e3744d8d18) - at _Colourful Facts_ – a Medium blog by Thomas de Beus. Ignore the reference to the **R** programming language as this course is based on **Python** (no offence intended to any community).
+* [Think about the grammar of graphics when improving your graphs](https://medium.com/tdebeus/think-about-the-grammar-of-graphics-when-improving-your-graphs-18e3744d8d18) - at _Colourful Facts_ – a Medium blog by Thomas de Beus. Ignore the reference to the **R** programming language as this course is based on **Python** (no offence intended to any community, R is the best for visualisation though).
 * Learn about [Kernel Density Estimation](https://mathisonian.github.io/kde/)
 
 ### Extra Material [Always to learn more but never needed for the course]
 
-* Berinato, S. Visualisations That Really Work, Harvard Business Review, Jun 2016
-* Wainer, H. How to Display Data Badly. The American Statistician 1984; 38: 137-1470
+* Berinato, S. [Visualisations That Really Work](https://hbr.org/2016/06/visualizations-that-really-work), Harvard Business Review, Jun 2016
 * Alberto Cairo's weblog called [The Functional Art](http://www.thefunctionalart.com/) about information design, and visualisation is an excellent resource for improving your visualisations.
 * (Yau, 2011)’s book ["Visualize this"](http://flowingdata.com/visualize-this/)
   is a good general introduction to visualisation.
 * Check out [From Data to Vis](https://www.data-to-viz.com/) chart selector for selecting the right charts
-
-### References
-
-1. Tufte, E. R. (1983). The visual display of quantitative information. Graphics press Cheshire, CT.
-2. Yau, N. (2011). Visualise this: the FlowingData guide to design, visualisation, and statistics. John Wiley & Sons.
-
 
 ***
 
@@ -173,11 +164,6 @@ The contents of this lecture are loosely based on, and explored into further det
 * [Choropleth chapter](https://geographicdata.science/book/notebooks/05_choropleth.html) from the GDS Book (in progress).
 * Color palettes are important for maps. Find some in [ColorBrewer](http://colorbrewer2.org/).
 
-### References
-
-1. Rey, S. (2015). Geovisualization. In GPH471: Geographic Information Analysis. Lecture slides from a course taught at Arizona State University.
-2. Brewer, C. (2015). Designing better Maps: A Guide for GIS users. ESRI Press.
-
 
 ***
 
@@ -199,9 +185,6 @@ The contents of this lecture are loosely based on, and explored into further det
 * Check out Geoff Boeing's computational notebook showcasing the use of **OSMNX**- a python library for processing street networks as network objects- with a case of [Urban Street Network Analysis](https://escholarship.org/uc/item/6z9802kf.)
 * For advanced and in-detail treatment, (Anselin & Rey, 2014) is an excellent reference.
 
-### References
-
-1. Anselin, L., & Rey, S. J. (2014). Modern Spatial Econometrics in Practice: A Guide to GeoDa, GeoDaSpace and PySAL. Chicago, IL: GeoDa Press LLC.
 
 
 ***
@@ -219,23 +202,14 @@ The contents of this lecture are loosely based on, and explored into further det
 
 ### Extra Material [Always to learn more but never needed for the course]
 
-* (Anselin, 1996) reviews the use of the Moran plot as an ESDA tool (You may access it on Scihub using the doi  https://doi.org/10.1111/j.1467-9787.1996.tb01101.x).
-* (Symanzik, 2014) introduces the main concepts behind ESDA.
-* (Haining, 2014) is an excellent historical perspective of the origins and motivations behind most of the global and local measures of spatial autocorrelation.
-
-### References
-
-1. Anselin, L. (1996). The Moran scatterplot as an ESDA tool to assess local instability in spatial association. Spatial Analytical Perspectives on GIS, 111, 111–125.
-2. Symanzik, J. (2014). Exploratory Spatial Data Analysis. In Handbook of Regional Science (pp. 1295–1310). Springer.
-3. Haining, R. (2014). Spatial Data and Statistical Methods: A Chronological Overview. In Handbook of Regional Science (pp. 1277–1294). Springer.
-
+* [Reflections on spatial autocorrelation](https://doi.org/10.1016/j.regsciurbeco.2007.04.005) by a quantitative geographer.
 
 ***
 
 
 ## Lecture 9 - Machine Learning for Everyone
 
-you may want to buy [The Hundred-Page Machine Learning Book](https://leanpub.com/theMLbook) as _some_ chapters will be used in _some_ topics from this point onwards and it is generally a fantastic book to have. If you cannot or do not want to spend $20.00 on the e-copy, email me, and we will figure something out. The author has invested a lot in writing this book, and it is an excellent resource on Machine Learning, even beyond this class.
+You may want to buy [The Hundred-Page Machine Learning Book](https://leanpub.com/theMLbook) as _some_ chapters will be used in _some_ topics from this point onwards and it is generally a fantastic book to have. If you cannot or do not want to spend $20.00 on the e-copy, email me, and we will figure something out. The author has invested a lot in writing this book, and it is an excellent resource on Machine Learning, even beyond this class.
 
 ### Slides
 
@@ -289,17 +263,7 @@ The contents of this lecture are loosely based on, and explored into further det
 
 ### Extra Material [Always to learn more but never needed for the course]
 
-* Chapters 1 and 2 in (Webber & Burrows, 2018) provides a fascinating account of the origins of Geodemographic classifications.
-* Chapter 7 in (Brunsdon & Singleton, 2015): *Geodemographic Analysis*, by Alexandros Alexiou and Alex Singleton.
-* (Duque, Ramos, & Suriñach, 2007) is an excellent review of regionalisation algorithms, but it is an excellent read.
-* (Oke et al., 2019) provides a comprehensive urban framework using hierarchical clustering methods and diverse set of abundant data.
-
-### References
-
-1. Webber, R., & Burrows, R. (2018). The Predictive Postcode: The Geodemographic Classification of British Society. SAGE.
-2. Brunsdon, C., & Singleton, A. (2015). Geocomputation: A Practical Primer. SAGE.
-3. Duque, J. C., Ramos, R., & Suriñach, J. (2007). Supervised regionalisation methods: A survey. International Regional Science Review, 30(3), 195–220.
-4. Oke, J. B., Aboutaleb, Y. M., Akkinepally, A., Azevedo, C. L., Han, Y., Zegras, P. C., ... & Ben-Akiva, M. E. (2019). A novel global urban typology framework for sustainable mobility futures. Environmental Research Letters, 14(9), 095006.
+* [Supervised Regionalization Methods: A Survey](https://doi.org/10.1177/0160017607301605) is an excellent review of regionalisation algorithms, but it is an excellent read.
 
 
 ***
@@ -318,9 +282,8 @@ The contents of this lecture are loosely based on, and explored into further det
 
 ### Extra Material [Always to learn more but never needed for the course]
 
-The contents of this lecture are loosely based on, and explored into further detail, in the following reference :
-
-* Section 9.3.1 of [The Hundred-Page Machine Learning Book](https://leanpub.com/theMLbook) by Andriy Burkov.
+* I recommend reading this amazing paper by Caitlin Robinson on [A spatial perspective of energy poverty](https://doi.org/10.1016/j.geoforum.2019.05.001).
+* If you are feeling adventurous, you can read my work on [Inequalities in solar adoption in The Hague](https://doi.org/10.1016/j.erss.2023.103245).
 
 
 ***
@@ -338,13 +301,7 @@ The contents of this lecture are loosely based on, and explored into further det
 
 ### Extra Material [Always to learn more but never needed for the course]
 
-* This class was partially based on (Rey, 2015).
-* The slides for this lecture were also inspired by Part 6 in (C. Brunsdon, 2015).
-
-### References
-
-1. Rey, S. (2015). Point Pattern Basics. In GPH471: Geographic Information Analysis. Lecture slides from a course taught at Arizona State University.
-2. C. Brunsdon, L. C. (2015). An Introduction to R for Spatial Analysis and Mapping. SAGE Publications Ltd.
+* None...
 
 
 ***
@@ -365,8 +322,3 @@ The contents of this lecture are loosely based on, and explored into further det
 
 * Watch [The unfortunate history of racial bias in photography.](https://www.youtube.com/watch?v=d16LNHIEJzs).
 * Watch [Coded Bias](https://www.youtube.com/watch?v=jZl55PsfZJQ&feature=youtu.be) on how corporations are not held accountable for deploying algorithms that affect humans.
-* (El-Geneidy et al., 2016) describe the cost of equity in assessing transit accessibility and social disparity using total travel cost.
-
-### References
-
-1. El-Geneidy, A., Levinson, D., Diab, E., Boisjoly, G., Verbich, D., & Loong, C. (2016). The cost of equity: Assessing transit accessibility and social disparity using total travel cost. Transportation Research Part A: Policy and Practice, 91, 302-316.

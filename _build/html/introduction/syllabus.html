@@ -19,12 +19,12 @@
   </script>
   
   <!-- Loaded before other Sphinx assets -->
-  <link href="../_static/styles/theme.css?digest=e353d410970836974a52" rel="stylesheet" />
-<link href="../_static/styles/bootstrap.css?digest=e353d410970836974a52" rel="stylesheet" />
-<link href="../_static/styles/pydata-sphinx-theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+  <link href="../_static/styles/theme.css?digest=365ca57ee442770a23c6" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=365ca57ee442770a23c6" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=365ca57ee442770a23c6" rel="stylesheet" />
 
   
-  <link href="../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=e353d410970836974a52" rel="stylesheet" />
+  <link href="../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=365ca57ee442770a23c6" rel="stylesheet" />
   <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
 <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
 <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
@@ -38,8 +38,9 @@
     <link rel="stylesheet" type="text/css" href="../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=e353d410970836974a52" />
-<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52" />
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=365ca57ee442770a23c6" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=365ca57ee442770a23c6" />
+  <script src="../_static/vendor/fontawesome/6.1.2/js/all.min.js?digest=365ca57ee442770a23c6"></script>
 
     <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
     <script src="../_static/jquery.js"></script>
@@ -77,6 +78,15 @@ const thebe_selector_output = ".output, .cell_output"
   
   
   <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
+
   
   <input type="checkbox"
           class="sidebar-toggle"
@@ -137,13 +147,14 @@ const thebe_selector_output = ".output, .cell_output"
   
   
   
+  
     
     
       
     
     
-    <img src="../_static/logo.png" class="logo__image only-light" alt="Logo image"/>
-    <script>document.write(`<img src="../_static/logo.png" class="logo__image only-dark" alt="Logo image"/>`);</script>
+    <img src="../_static/logo.png" class="logo__image only-light" alt="EPA122A - Home"/>
+    <script>document.write(`<img src="../_static/logo.png" class="logo__image only-dark" alt="EPA122A - Home"/>`);</script>
   
   
 </a></div>
@@ -153,7 +164,7 @@ const thebe_selector_output = ".output, .cell_output"
         <ul class="nav bd-sidenav bd-sidenav__home-link">
             <li class="toctree-l1">
                 <a class="reference internal" href="../_index.html">
-                    EPA 1316 A Introduction to Urban Data Science
+                    EPA 122A Spatial Data Science
                 </a>
             </li>
         </ul>
@@ -171,12 +182,9 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l1 has-children"><a class="reference internal" href="../assessment_index.html">Assessment</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="../assessment/assignment.html">Assignments</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../assessment/final-project.html">Final Project</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../assessment/project-details.html">Project Details</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../assessment/project-template.html">Project Template</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../assignments_index.html">Assignments</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../faq_index.html">FAQ</a></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="../software_index.html">Software</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-3"><i class="fa-solid fa-chevron-down"></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="../software/1-standard.html">Standard Installation</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../software/2-minimalist.html">Minimalist Installation</a></li>
@@ -184,13 +192,8 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l2"><a class="reference internal" href="../software/environment.html">Virtual Environments</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../resources_index.html">Helping Material</a></li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="../project_index.html">Project Details</a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-4"><i class="fa-solid fa-chevron-down"></i></label><ul>
-<li class="toctree-l2"><a class="reference internal" href="../project/project-01.html"><img src="https://raw.githubusercontent.com/trivikverma/researchgroup/master/static/media/resources/epa1316/TU_descriptor%20black.png" style="float: left; padding-right: 10px; width: 80px"/> EPA-1316 Introduction to <em>Urban</em> Data Science</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../project/project-02.html"><img src="https://raw.githubusercontent.com/trivikverma/researchgroup/master/static/media/resources/epa1316/TU_descriptor%20black.png" style="float: left; padding-right: 10px; width: 80px"/> EPA-1316 Introduction to <em>Urban</em> Data Science</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../project/project-03.html"><img src="https://raw.githubusercontent.com/trivikverma/researchgroup/master/static/media/resources/epa1316/TU_descriptor%20black.png" style="float: left; padding-right: 10px; width: 80px"/> EPA-1316 Introduction to <em>Urban</em> Data Science</a></li>
-</ul>
-</li>
+<li class="toctree-l1"><a class="reference internal" href="../resources_index.html">Helping Material ch</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../faq_index.html">FAQ</a></li>
 </ul>
 
     </div>
@@ -346,10 +349,10 @@ const thebe_selector_output = ".output, .cell_output"
 
 <script>
 document.write(`
-  <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
-    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
-    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
   </button>
 `);
 </script>
@@ -357,7 +360,7 @@ document.write(`
 <script>
 document.write(`
   <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <i class="fa-solid fa-magnifying-glass"></i>
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
   </button>
 `);
 </script>
@@ -405,156 +408,156 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="syllabus">
 <h1>Syllabus<a class="headerlink" href="#syllabus" title="Permalink to this heading">#</a></h1>
-<p>The course is divided into a set of interactive lectures, labs and discussions. Lectures are meant to provide students with concepts and theories. Labs are for practising programming in Python and will be self-directed. Discussions are an extremely important part of learning, and students usually bring some great insights from reading research papers.</p>
+<p>The course is divided into a set of interactive lectures and labs. Lectures are meant to provide students with concepts and theories. Labs are self-directed for practising programming in Python. Use this time to complete assignments in class with ample support from TAs.</p>
 <section id="an-overview-of-all-course-sessions">
 <h2>An overview of all course sessions<a class="headerlink" href="#an-overview-of-all-course-sessions" title="Permalink to this heading">#</a></h2>
 <table class="table">
 <thead>
-<tr class="row-odd"><th class="head"><p>Week</p></th>
-<th class="head"><p>Lecture + Discussion</p></th>
-<th class="head"><p>Topic</p></th>
-<th class="head"><p>Learning Goals</p></th>
-<th class="head"><p>Python Libraries</p></th>
-<th class="head"><p>Labs and Homework <a class="footnote-reference brackets" href="#id5" id="id1" role="doc-noteref"><span class="fn-bracket">[</span>1<span class="fn-bracket">]</span></a></p></th>
-<th class="head"><p>Assessment <a class="footnote-reference brackets" href="#id6" id="id2" role="doc-noteref"><span class="fn-bracket">[</span>2<span class="fn-bracket">]</span></a><a class="footnote-reference brackets" href="#id7" id="id3" role="doc-noteref"><span class="fn-bracket">[</span>3<span class="fn-bracket">]</span></a></p></th>
+<tr class="row-odd"><th class="head text-center"><p>Week</p></th>
+<th class="head text-center"><p>Lecture</p></th>
+<th class="head text-center"><p>Topic</p></th>
+<th class="head text-center"><p>Learning Goals</p></th>
+<th class="head text-center"><p>Python Libraries</p></th>
+<th class="head text-center"><p>Labs <a class="footnote-reference brackets" href="#id5" id="id1" role="doc-noteref"><span class="fn-bracket">[</span>1<span class="fn-bracket">]</span></a></p></th>
+<th class="head text-center"><p>Assessment <a class="footnote-reference brackets" href="#id6" id="id2" role="doc-noteref"><span class="fn-bracket">[</span>2<span class="fn-bracket">]</span></a><a class="footnote-reference brackets" href="#id7" id="id3" role="doc-noteref"><span class="fn-bracket">[</span>3<span class="fn-bracket">]</span></a></p></th>
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td><p>W1</p></td>
-<td><p>L1</p></td>
-<td><p>Introduction to Urban Data Science</p></td>
-<td><p></p></td>
-<td><p>Anaconda and Jupyter, Numpy</p></td>
-<td><p>Lab 0 + 1</p></td>
-<td><p></p></td>
+<tr class="row-even"><td class="text-center"><p>W1</p></td>
+<td class="text-center"><p>L1</p></td>
+<td class="text-center"><p>Introduction to Spatial Data Science</p></td>
+<td class="text-center"><p></p></td>
+<td class="text-center"><p>Anaconda and Jupyter, Numpy</p></td>
+<td class="text-center"><p>Lab 0 + 1</p></td>
+<td class="text-center"><p></p></td>
 </tr>
-<tr class="row-odd"><td><p></p></td>
-<td><p>L2</p></td>
-<td><p>Spatial and Urban Data</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
+<tr class="row-odd"><td class="text-center"><p></p></td>
+<td class="text-center"><p>L2</p></td>
+<td class="text-center"><p>Spatial and Urban Data</p></td>
+<td class="text-center"><p></p></td>
+<td class="text-center"><p></p></td>
+<td class="text-center"><p>“</p></td>
+<td class="text-center"><p></p></td>
 </tr>
-<tr class="row-even"><td><p>W2</p></td>
-<td><p>L3 + D1</p></td>
-<td><p>Data Grammar</p></td>
-<td><p>Obtain, Discuss</p></td>
-<td><p>Pandas, Seaborn</p></td>
-<td><p>Lab 2</p></td>
-<td><p></p></td>
+<tr class="row-even"><td class="text-center"><p>W2</p></td>
+<td class="text-center"><p>L3</p></td>
+<td class="text-center"><p>Data Grammar</p></td>
+<td class="text-center"><p>Obtain, Discuss</p></td>
+<td class="text-center"><p>Pandas, Seaborn</p></td>
+<td class="text-center"><p>Lab 2</p></td>
+<td class="text-center"><p></p></td>
 </tr>
-<tr class="row-odd"><td><p></p></td>
-<td><p>L4</p></td>
-<td><p>Data Engineering</p></td>
-<td><p>Manipulate, consolidate</p></td>
-<td><p>Pandas</p></td>
-<td><p></p></td>
-<td><p>Assignment 1</p></td>
+<tr class="row-odd"><td class="text-center"><p></p></td>
+<td class="text-center"><p>L4</p></td>
+<td class="text-center"><p>Data Engineering</p></td>
+<td class="text-center"><p>Manipulate, consolidate</p></td>
+<td class="text-center"><p>Pandas</p></td>
+<td class="text-center"><p>“</p></td>
+<td class="text-center"><p></p></td>
 </tr>
-<tr class="row-even"><td><p>W3</p></td>
-<td><p>Ommen Trip</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
+<tr class="row-even"><td class="text-center"><p>W3</p></td>
+<td class="text-center"><p>L5</p></td>
+<td class="text-center"><p>EDA and Visualisation</p></td>
+<td class="text-center"><p>Discuss, manipulate and Consolidate</p></td>
+<td class="text-center"><p>Geopandas, Matplotlib, Rasterio</p></td>
+<td class="text-center"><p>Lab 3</p></td>
+<td class="text-center"><p>Assignment 1</p></td>
 </tr>
-<tr class="row-odd"><td><p>W4</p></td>
-<td><p>L5 + D2</p></td>
-<td><p>EDA and Visualisation</p></td>
-<td><p>Discuss, manipulate and Consolidate</p></td>
-<td><p>Geopandas, Matplotlib, Rasterio</p></td>
-<td><p>Lab 3</p></td>
-<td><p></p></td>
+<tr class="row-odd"><td class="text-center"><p></p></td>
+<td class="text-center"><p>L6</p></td>
+<td class="text-center"><p>Geo-Visualisation</p></td>
+<td class="text-center"><p>Interpret</p></td>
+<td class="text-center"><p></p></td>
+<td class="text-center"><p>“</p></td>
+<td class="text-center"><p></p></td>
 </tr>
-<tr class="row-even"><td><p></p></td>
-<td><p>L6</p></td>
-<td><p>Geo-Visualisation</p></td>
-<td><p>Interpret</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
+<tr class="row-even"><td class="text-center"><p>W4</p></td>
+<td class="text-center"><p>L7</p></td>
+<td class="text-center"><p>Networks and Spatial Weights</p></td>
+<td class="text-center"><p>Describe, Analyse</p></td>
+<td class="text-center"><p>Networkx, Osmnx, Pysal</p></td>
+<td class="text-center"><p>Lab 4</p></td>
+<td class="text-center"><p></p></td>
 </tr>
-<tr class="row-odd"><td><p>W5</p></td>
-<td><p>L7 + D3</p></td>
-<td><p>Networks and Spatial Weights</p></td>
-<td><p>Describe, Analyse</p></td>
-<td><p>Networkx, Osmnx, Pysal</p></td>
-<td><p>Lab 4</p></td>
-<td><p></p></td>
+<tr class="row-odd"><td class="text-center"><p></p></td>
+<td class="text-center"><p>L8</p></td>
+<td class="text-center"><p>Exploratory Spatial Data Analysis</p></td>
+<td class="text-center"><p>Describe, Analyze</p></td>
+<td class="text-center"><p></p></td>
+<td class="text-center"><p>“</p></td>
+<td class="text-center"><p></p></td>
 </tr>
-<tr class="row-even"><td><p></p></td>
-<td><p>L8</p></td>
-<td><p>Exploratory Spatial Data Analysis</p></td>
-<td><p>Describe, Analyze</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p>Assignment 2</p></td>
+<tr class="row-even"><td class="text-center"><p>W5</p></td>
+<td class="text-center"><p>L9</p></td>
+<td class="text-center"><p>Machine Learning for Everyone</p></td>
+<td class="text-center"><p>Apply</p></td>
+<td class="text-center"><p>Sklearn, Scipy, Statsmodels</p></td>
+<td class="text-center"><p>Lab 5</p></td>
+<td class="text-center"><p>Assignment 2</p></td>
 </tr>
-<tr class="row-odd"><td><p>W6</p></td>
-<td><p>L9 + D4</p></td>
-<td><p>Machine Learning for Everyone</p></td>
-<td><p>Apply</p></td>
-<td><p>Sklearn, Scipy, Statsmodels</p></td>
-<td><p>Lab 5</p></td>
-<td><p></p></td>
+<tr class="row-odd"><td class="text-center"><p></p></td>
+<td class="text-center"><p>L10</p></td>
+<td class="text-center"><p>Anatomy of a Learning Algorithm</p></td>
+<td class="text-center"><p>Infer</p></td>
+<td class="text-center"><p></p></td>
+<td class="text-center"><p>“</p></td>
+<td class="text-center"><p></p></td>
 </tr>
-<tr class="row-even"><td><p></p></td>
-<td><p>L10</p></td>
-<td><p>Anatomy of a Learning Algorithm</p></td>
-<td><p>Infer</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
+<tr class="row-even"><td class="text-center"><p>W6</p></td>
+<td class="text-center"><p>L11</p></td>
+<td class="text-center"><p>Clustering</p></td>
+<td class="text-center"><p>Apply</p></td>
+<td class="text-center"><p>Pysal, Sklearn-Cluster</p></td>
+<td class="text-center"><p>Lab 6</p></td>
+<td class="text-center"><p></p></td>
 </tr>
-<tr class="row-odd"><td><p>W7</p></td>
-<td><p>L11 + D5</p></td>
-<td><p>Clustering</p></td>
-<td><p>Apply</p></td>
-<td><p>Pysal, Sklearn-Cluster</p></td>
-<td><p>Lab 6</p></td>
-<td><p></p></td>
+<tr class="row-odd"><td class="text-center"><p></p></td>
+<td class="text-center"><p>L12</p></td>
+<td class="text-center"><p>Dimensionality Reduction</p></td>
+<td class="text-center"><p>Apply</p></td>
+<td class="text-center"><p></p></td>
+<td class="text-center"><p>“</p></td>
+<td class="text-center"><p></p></td>
 </tr>
-<tr class="row-even"><td><p></p></td>
-<td><p>L12</p></td>
-<td><p>Dimensionality Reduction</p></td>
-<td><p>Apply</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p>Assignment 3</p></td>
+<tr class="row-even"><td class="text-center"><p>Winter Break</p></td>
+<td class="text-center"><p></p></td>
+<td class="text-center"><p></p></td>
+<td class="text-center"><p></p></td>
+<td class="text-center"><p></p></td>
+<td class="text-center"><p></p></td>
+<td class="text-center"><p></p></td>
 </tr>
-<tr class="row-odd"><td><p>W8</p></td>
-<td><p>L13 + D6</p></td>
-<td><p>Spatial Density Estimation</p></td>
-<td><p>Infer</p></td>
-<td><p>More Sklearn</p></td>
-<td><p>Lab 7</p></td>
-<td><p></p></td>
+<tr class="row-odd"><td class="text-center"><p>W7</p></td>
+<td class="text-center"><p>L13</p></td>
+<td class="text-center"><p>Spatial Density Estimation</p></td>
+<td class="text-center"><p>Infer</p></td>
+<td class="text-center"><p>More Sklearn</p></td>
+<td class="text-center"><p>Lab 7</p></td>
+<td class="text-center"><p>Assignment 3</p></td>
 </tr>
-<tr class="row-even"><td><p></p></td>
-<td><p>L14</p></td>
-<td><p>Responsible Data Science</p></td>
-<td><p>Create</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
+<tr class="row-even"><td class="text-center"><p></p></td>
+<td class="text-center"><p>L14</p></td>
+<td class="text-center"><p>Responsible Data Science</p></td>
+<td class="text-center"><p>Create</p></td>
+<td class="text-center"><p></p></td>
+<td class="text-center"><p>“</p></td>
+<td class="text-center"><p></p></td>
 </tr>
-<tr class="row-odd"><td><p>W9</p></td>
-<td><p>Project Preparation</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
+<tr class="row-odd"><td class="text-center"><p>W8</p></td>
+<td class="text-center"><p>Project Preparation</p></td>
+<td class="text-center"><p></p></td>
+<td class="text-center"><p></p></td>
+<td class="text-center"><p></p></td>
+<td class="text-center"><p></p></td>
+<td class="text-center"><p></p></td>
 </tr>
-<tr class="row-even"><td><p>W10</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p>Final Project <a class="footnote-reference brackets" href="#id8" id="id4" role="doc-noteref"><span class="fn-bracket">[</span>4<span class="fn-bracket">]</span></a></p></td>
+<tr class="row-even"><td class="text-center"><p>W10</p></td>
+<td class="text-center"><p></p></td>
+<td class="text-center"><p></p></td>
+<td class="text-center"><p></p></td>
+<td class="text-center"><p></p></td>
+<td class="text-center"><p></p></td>
+<td class="text-center"><p>Final Project <a class="footnote-reference brackets" href="#id8" id="id4" role="doc-noteref"><span class="fn-bracket">[</span>4<span class="fn-bracket">]</span></a></p></td>
 </tr>
 </tbody>
 </table>
@@ -563,12 +566,11 @@ document.write(`
 <h2>Format<a class="headerlink" href="#format" title="Permalink to this heading">#</a></h2>
 <p>Seven weeks of:</p>
 <ul class="simple">
-<li><p><strong>Prep. Materials</strong>: videos, podcasts, articles… 1h. approx. (most recommended!)</p></li>
-<li><p><strong>2x 1h. Lectures</strong>: concepts, methods, examples</p></li>
-<li><p><strong>1h. Paper Discussions</strong>: reading a paper and debating a set of questions with your peers in small groups. (extremely important if you are interested in applying concepts to real-world problems). Please read the paper before coming to the discussion session so you can have a more informed and informal debate with your peers.</p></li>
-<li><p><strong>2h. Computer labs</strong>: hands-on, application of concepts, Python
+<li><p><strong>At-home Prep. Materials</strong>: videos, podcasts, articles… 1h. approx. (most recommended!)</p></li>
+<li><p><strong>2x 1h. Lectures</strong>: concepts, methods, examples, crtiical discussions</p></li>
+<li><p><strong>2x 2h. Labs</strong>: hands-on, application of concepts, Python
 (highly <em>employable</em>)</p></li>
-<li><p><strong>Further readings</strong>: how to go beyond this course</p></li>
+<li><p><strong>Further readings (optional!)</strong>: how to go beyond this course</p></li>
 </ul>
 </section>
 <section id="content">
@@ -583,9 +585,9 @@ computational tools (learning curve) + lots and lots of data + lots of visualisa
 <section id="logistics">
 <h2>Logistics<a class="headerlink" href="#logistics" title="Permalink to this heading">#</a></h2>
 <ul class="simple">
-<li><p><strong>Course Material</strong>: <a class="reference external" href="https://cusp.tbm.tudelft.nl/courses/epa1316/">This website</a></p></li>
+<li><p><strong>Course Material</strong>: This website only!</p></li>
 <li><p><strong>Recordings of Lectures</strong>: Lectures are not recorded.</p></li>
-<li><p><strong>Announcements, Discussion Forums, Submission + Feedback, Group Formation + Peer Review and Grading</strong>: Brightspace</p></li>
+<li><p><strong>Announcements, Submission + Feedback, Group Formation + Peer Review and Grading</strong>: Brightspace</p></li>
 </ul>
 </section>
 <section id="self-directed-learning">
@@ -611,30 +613,29 @@ computational tools (learning curve) + lots and lots of data + lots of visualisa
 </section>
 <section id="a-note-on-exams">
 <h2>A note on exams<a class="headerlink" href="#a-note-on-exams" title="Permalink to this heading">#</a></h2>
-<p>This course has no exams. Time-constrained exams do not measure learning. Putting students under high-stakes environments only benefit those who can recall knowledge under pressure. In my opinion, that is a uselesss life-skill.</p>
+<p>Time-constrained exams do not measure any learning. Putting students under high-stakes environments only benefit those who can recall knowledge under pressure and is a filtering mechanism. In my opinion, that is a uselesss life-skill. This course <strong>does not have any exams</strong>.</p>
 </section>
 <section id="more-help">
 <h2>More help!!!<a class="headerlink" href="#more-help" title="Permalink to this heading">#</a></h2>
 <p>This course is much more about <strong>“learning to learn”</strong> and <strong>problem
-solving</strong> rather than acquiring specific programming tricks or stats wizardry</p>
+solving</strong> rather than acquiring specific programming tricks or stats wizardry.</p>
 <ul class="simple">
 <li><p>Learn to <strong>ask</strong> questions (but don’t expect exact answers all the time!!!)</p></li>
 <li><p><strong>Help</strong> others as much as you can (the best way to learn is to teach)</p></li>
-<li><p><strong>Search</strong> heavily on Google + Stack Overflow</p></li>
-<li><p><strong>Discussion Forum</strong>: students are encouraged to contribute <em>meaningfully</em> to the online discussion forum set up for the course on Brightspace. <em>Meaningful</em> contributions include both questions and answers that demonstrate the student is committed to make the forum a more useful resource for the rest of the group. This also enables your peers to learn from your questions and help each other.</p></li>
+<li><p><strong>Search</strong> heavily on your favorite browser, search engine, large language model + stack overflow (be mindful that chatGPT is a <a class="reference external" href="https://dl.acm.org/doi/10.1145/3442188.3445922">stochastic parrot</a> and cannot replace humans in critical thinking, learning and inference)</p></li>
 </ul>
 <hr class="footnotes docutils" />
 <aside class="footnote brackets" id="id5" role="note">
 <span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id1">1</a><span class="fn-bracket">]</span></span>
-<p>In-class Labs are interactive Jupyter notebooks for learning how to program. Each lab is accompanied by homework exercises for practice. The only the way to learn how to program is by practicing it. Homeworks are not graded, but your peers could give you feedback. We will provide some tips to facilitate this. Constructive feedback from other people is an excellent way to learn.</p>
+<p>Labs are interactive Jupyter notebooks for practicing programming. Each lab is accompanied by homework exercises for practice. Homeworks are not graded, but your peers could give you feedback and they are meant to be done in the lab sessions. We will provide some tips to facilitate this. Constructive feedback from other people is an excellent way to learn.</p>
 </aside>
 <aside class="footnote brackets" id="id6" role="note">
 <span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id2">2</a><span class="fn-bracket">]</span></span>
-<p>Graded Assignments are individual activities and are released two weeks prior on Monday. Due at the end of the specified working week on Friday at 2330.</p>
+<p>Graded Assignments are individual activities. Assignments are due on Tuesdays at 1800 of the specified week above.</p>
 </aside>
 <aside class="footnote brackets" id="id7" role="note">
 <span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id3">3</a><span class="fn-bracket">]</span></span>
-<p>Grades and feedback released two weeks after on Wednesday at 1800.</p>
+<p>Grades and feedback released a week after submission on Fridays at 1800.</p>
 </aside>
 <aside class="footnote brackets" id="id8" role="note">
 <span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id4">4</a><span class="fn-bracket">]</span></span>
@@ -668,11 +669,10 @@ solving</strong> rather than acquiring specific programming tricks or stats wiza
 
               
               
-                <footer class="bd-footer-article">
-                  
-<div class="footer-article-items footer-article__inner">
-  
-    <div class="footer-article-item"><!-- Previous / next buttons -->
+              
+              
+                <footer class="prev-next-footer">
+                  <!-- Previous / next buttons -->
 <div class="prev-next-area">
     <a class="left-prev"
        href="overview.html"
@@ -692,10 +692,7 @@ solving</strong> rather than acquiring specific programming tricks or stats wiza
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
-</div></div>
-  
 </div>
-
                 </footer>
               
             </div>
@@ -732,7 +729,7 @@ solving</strong> rather than acquiring specific programming tricks or stats wiza
   <div class="footer-item">
     
 <p class="component-author">
-By Nachi
+By Trivik Verma
 </p>
 
   </div>
@@ -765,8 +762,8 @@ By Nachi
   </div>
   
   <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script src="../_static/scripts/bootstrap.js?digest=e353d410970836974a52"></script>
-<script src="../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52"></script>
+  <script src="../_static/scripts/bootstrap.js?digest=365ca57ee442770a23c6"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=365ca57ee442770a23c6"></script>
 
   <footer class="bd-footer">
   </footer>

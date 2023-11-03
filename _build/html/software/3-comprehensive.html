@@ -19,12 +19,12 @@
   </script>
   
   <!-- Loaded before other Sphinx assets -->
-  <link href="../_static/styles/theme.css?digest=e353d410970836974a52" rel="stylesheet" />
-<link href="../_static/styles/bootstrap.css?digest=e353d410970836974a52" rel="stylesheet" />
-<link href="../_static/styles/pydata-sphinx-theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+  <link href="../_static/styles/theme.css?digest=365ca57ee442770a23c6" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=365ca57ee442770a23c6" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=365ca57ee442770a23c6" rel="stylesheet" />
 
   
-  <link href="../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=e353d410970836974a52" rel="stylesheet" />
+  <link href="../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=365ca57ee442770a23c6" rel="stylesheet" />
   <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
 <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
 <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
@@ -38,8 +38,9 @@
     <link rel="stylesheet" type="text/css" href="../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=e353d410970836974a52" />
-<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52" />
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=365ca57ee442770a23c6" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=365ca57ee442770a23c6" />
+  <script src="../_static/vendor/fontawesome/6.1.2/js/all.min.js?digest=365ca57ee442770a23c6"></script>
 
     <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
     <script src="../_static/jquery.js"></script>
@@ -77,6 +78,15 @@ const thebe_selector_output = ".output, .cell_output"
   
   
   <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
+
   
   <input type="checkbox"
           class="sidebar-toggle"
@@ -137,13 +147,14 @@ const thebe_selector_output = ".output, .cell_output"
   
   
   
+  
     
     
       
     
     
-    <img src="../_static/logo.png" class="logo__image only-light" alt="Logo image"/>
-    <script>document.write(`<img src="../_static/logo.png" class="logo__image only-dark" alt="Logo image"/>`);</script>
+    <img src="../_static/logo.png" class="logo__image only-light" alt="EPA122A - Home"/>
+    <script>document.write(`<img src="../_static/logo.png" class="logo__image only-dark" alt="EPA122A - Home"/>`);</script>
   
   
 </a></div>
@@ -153,7 +164,7 @@ const thebe_selector_output = ".output, .cell_output"
         <ul class="nav bd-sidenav bd-sidenav__home-link">
             <li class="toctree-l1">
                 <a class="reference internal" href="../_index.html">
-                    EPA 1316 A Introduction to Urban Data Science
+                    EPA 122A Spatial Data Science
                 </a>
             </li>
         </ul>
@@ -171,12 +182,9 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l1 has-children"><a class="reference internal" href="../assessment_index.html">Assessment</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="../assessment/assignment.html">Assignments</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../assessment/final-project.html">Final Project</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../assessment/project-details.html">Project Details</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../assessment/project-template.html">Project Template</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../assignments_index.html">Assignments</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../faq_index.html">FAQ</a></li>
 <li class="toctree-l1 current active has-children"><a class="reference internal" href="../software_index.html">Software</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-3"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="1-standard.html">Standard Installation</a></li>
 <li class="toctree-l2"><a class="reference internal" href="2-minimalist.html">Minimalist Installation</a></li>
@@ -184,13 +192,8 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l2"><a class="reference internal" href="environment.html">Virtual Environments</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../resources_index.html">Helping Material</a></li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="../project_index.html">Project Details</a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-4"><i class="fa-solid fa-chevron-down"></i></label><ul>
-<li class="toctree-l2"><a class="reference internal" href="../project/project-01.html"><img src="https://raw.githubusercontent.com/trivikverma/researchgroup/master/static/media/resources/epa1316/TU_descriptor%20black.png" style="float: left; padding-right: 10px; width: 80px"/> EPA-1316 Introduction to <em>Urban</em> Data Science</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../project/project-02.html"><img src="https://raw.githubusercontent.com/trivikverma/researchgroup/master/static/media/resources/epa1316/TU_descriptor%20black.png" style="float: left; padding-right: 10px; width: 80px"/> EPA-1316 Introduction to <em>Urban</em> Data Science</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../project/project-03.html"><img src="https://raw.githubusercontent.com/trivikverma/researchgroup/master/static/media/resources/epa1316/TU_descriptor%20black.png" style="float: left; padding-right: 10px; width: 80px"/> EPA-1316 Introduction to <em>Urban</em> Data Science</a></li>
-</ul>
-</li>
+<li class="toctree-l1"><a class="reference internal" href="../resources_index.html">Helping Material ch</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../faq_index.html">FAQ</a></li>
 </ul>
 
     </div>
@@ -346,10 +349,10 @@ const thebe_selector_output = ".output, .cell_output"
 
 <script>
 document.write(`
-  <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
-    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
-    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
   </button>
 `);
 </script>
@@ -357,7 +360,7 @@ document.write(`
 <script>
 document.write(`
   <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <i class="fa-solid fa-magnifying-glass"></i>
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
   </button>
 `);
 </script>
@@ -384,7 +387,7 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#a-comprehensive-approach-the-gds-docker-container-slightly-more-advanced-and-complicated-installation">3) A comprehensive approach: the GDS Docker container (slightly more advanced and complicated installation)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#a-comprehensive-approach-the-gds-docker-container-slightly-more-advanced-and-complicated-installation">A comprehensive approach: the GDS Docker container (slightly more advanced and complicated installation)</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#mark-macos-installation-mark"><mark> <strong>MacOS Installation</strong> </mark></a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#installation">1. Installation</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#requirements">Requirements</a></li>
@@ -442,7 +445,7 @@ document.write(`
   <section class="tex2jax_ignore mathjax_ignore" id="comprehensive-installation">
 <h1>Comprehensive Installation<a class="headerlink" href="#comprehensive-installation" title="Permalink to this heading">#</a></h1>
 <section id="a-comprehensive-approach-the-gds-docker-container-slightly-more-advanced-and-complicated-installation">
-<h2>3) A comprehensive approach: the GDS Docker container (slightly more advanced and complicated installation)<a class="headerlink" href="#a-comprehensive-approach-the-gds-docker-container-slightly-more-advanced-and-complicated-installation" title="Permalink to this heading">#</a></h2>
+<h2>A comprehensive approach: the GDS Docker container (slightly more advanced and complicated installation)<a class="headerlink" href="#a-comprehensive-approach-the-gds-docker-container-slightly-more-advanced-and-complicated-installation" title="Permalink to this heading">#</a></h2>
 <p>If meet the following requirements, <a class="reference external" href="https://www.docker.com/">Docker</a> is a stable alternative and works out of the box:</p>
 <ol class="arabic simple">
 <li><p>You have admin rights over your machine</p></li>
@@ -453,7 +456,10 @@ document.write(`
 </section>
 <section id="mark-macos-installation-mark">
 <h2><mark> <strong>MacOS Installation</strong> </mark><a class="headerlink" href="#mark-macos-installation-mark" title="Permalink to this heading">#</a></h2>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
 <p>If you want to install miniconda (recommended approach, go <a class="reference internal" href="../software_index.html"><span class="doc std std-doc">here</span></a>.)</p>
+</div>
 </section>
 <section id="installation">
 <h2>1. Installation<a class="headerlink" href="#installation" title="Permalink to this heading">#</a></h2>
@@ -492,7 +498,7 @@ document.write(`
 <li><p>Access your terminal: <strong>Launchpad</strong> &gt; <strong>Other</strong> &gt; <strong>Terminal</strong></p></li>
 <li><p>In a fresh line in the terminal type the following to install the GDS environment container:</p></li>
 </ol>
-<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>docker<span class="w"> </span>pull<span class="w"> </span>darribas/gds:6.1
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>docker pull darribas/gds:6.1
 </pre></div>
 </div>
 <p><img alt="Docker Pull GDS" src="../_images/Figure5.png" /></p>
@@ -502,8 +508,10 @@ document.write(`
 </ol>
 <p><img alt="Downloading" src="../_images/Figure6.png" /></p>
 <p>Dont be alarmed if it seems to take a very long time.</p>
-<p><b><em>IMPORTANT</em></b>: <br/>
-Make sure you are connected to the internet and it is a stable connection. This step involves the download of large amounts of data (~ 10GB) so it might take a while. However, it only needs to run once.</p>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>Make sure you are connected to the internet and it is a stable connection. This step involves the download of large amounts of data (~ 10GB) so it might take a while. However, it only needs to run once.</p>
+</div>
 </section>
 <section id="check-success">
 <h3>Check success<a class="headerlink" href="#check-success" title="Permalink to this heading">#</a></h3>
@@ -525,8 +533,10 @@ the command below</p>
 <p><img alt="Commandline" src="../_images/Figure7.png" /></p>
 <br/>
 <p>You have now started a Python session.</p>
-<p><b><em>IMPORTANT</em></b>: <br/>
-Please do NOT close the terminal window until you are finished in this Python session.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Please do NOT close the terminal window until you are finished in this Python session.</p>
+</div>
 <ol class="arabic simple" start="2">
 <li><p>To access this session go to your chosen web browser (e.g. Safari/Chrome) and type: <code class="docutils literal notranslate"><span class="pre">localhost:8888</span></code> into the search bar</p></li>
 </ol>
@@ -549,9 +559,10 @@ Please do NOT close the terminal window until you are finished in this Python se
 </ul>
 <p><img alt="Notebook" src="../_images/Figure12.png" /></p>
 <br/>
-<p><b><em>IMPORTANT</em></b>: <br/>
-Make sure you save files you want to keep <strong>ONLY</strong> <em>within</em> the <code class="docutils literal notranslate"><span class="pre">work</span></code> folder, as this will ensure they are saved on your machine.</p>
-<p>Everything saved outside the <code class="docutils literal notranslate"><span class="pre">work</span></code> folder will be <em>destroyed</em> as soon as you shut down the session.</p>
+<div class="admonition caution">
+<p class="admonition-title">Caution</p>
+<p>Make sure you save files you want to keep <strong>ONLY</strong> <em>within</em> the <code class="docutils literal notranslate"><span class="pre">work</span></code> folder, as this will ensure they are saved on your machine. Everything saved outside the <code class="docutils literal notranslate"><span class="pre">work</span></code> folder will be <em>destroyed</em> as soon as you shut down the session.</p>
+</div>
 <ul class="simple">
 <li><p>You can access other files on your machine through the <code class="docutils literal notranslate"><span class="pre">work</span></code> folder in the File Browser. From here you can navigate to your Documents and designated folder for this module. For example, see below (this will depend on where you have stored the lab notebooks/data/other material for this course)</p></li>
 </ul>
@@ -587,7 +598,10 @@ Make sure you save files you want to keep <strong>ONLY</strong> <em>within</em> 
 </section>
 <section id="mark-linux-installation-mark">
 <h2><mark> <strong>Linux Installation</strong> </mark><a class="headerlink" href="#mark-linux-installation-mark" title="Permalink to this heading">#</a></h2>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
 <p>If you want to install miniconda (recommended approach, go <a class="reference internal" href="../software_index.html"><span class="doc std std-doc">here</span></a>.)</p>
+</div>
 </section>
 <section id="id2">
 <h2>1. Installation<a class="headerlink" href="#id2" title="Permalink to this heading">#</a></h2>
@@ -631,14 +645,16 @@ Make sure you save files you want to keep <strong>ONLY</strong> <em>within</em> 
 </ol>
 <p><strong>NOTE</strong>: please ignore the version showing in the screenshot, follow that in
 the command below</p>
-<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>docker<span class="w"> </span>pull<span class="w"> </span>darribas/gds:6.1
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>docker pull darribas/gds:6.1
 </pre></div>
 </div>
 <p><img alt="Terminal Pull" src="../_images/terminal_pull.png" /></p>
 <br>
 <p>You will know this has completed when each line says ‘Pull complete’.</p>
-<p><b>IMPORTANT</b>: <br>
-Make sure you are connected to the internet and it is a stable connection. This step involves the download of large amounts of data (ca. 10GB) so it might take a while. However, it only needs to be run once.</p>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>Make sure you are connected to the internet and it is a stable connection. This step involves the download of large amounts of data (ca. 10GB) so it might take a while. However, it only needs to be run once.</p>
+</div>
 </section>
 <section id="id6">
 <h3>Check success<a class="headerlink" href="#id6" title="Permalink to this heading">#</a></h3>
@@ -660,14 +676,16 @@ the command below</p>
 </ol>
 <p><strong>NOTE</strong>: please ignore the version showing in the screenshot, follow that in
 the command below</p>
-<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>docker<span class="w"> </span>run<span class="w"> </span>--rm<span class="w"> </span>-ti<span class="w"> </span>-p<span class="w"> </span><span class="m">8888</span>:8888<span class="w"> </span>-v<span class="w"> </span><span class="si">${</span><span class="nv">PWD</span><span class="si">}</span>:/home/jovyan/work<span class="w"> </span>darribas/gds:6.1
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>docker run --rm -ti -p <span class="m">8888</span>:8888 -v <span class="si">${</span><span class="nv">PWD</span><span class="si">}</span>:/home/jovyan/work darribas/gds:6.1
 </pre></div>
 </div>
 <p><img alt="Docker Run" src="../_images/docker_run.png" /></p>
 <br>
 <p>You have now started a Python session.</p>
-<p><b>IMPORTANT</b>: <br></p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
 <p>Please do NOT close the terminal window until you are finished in this Python session</p>
+</div>
 <ol class="arabic simple" start="2">
 <li><p>To access this session go to your chosen web browser (e.g. Firefox/Chrome) and type: <code class="docutils literal notranslate"><span class="pre">localhost:8888</span></code> into the search bar</p></li>
 </ol>
@@ -690,9 +708,10 @@ the command below</p>
 </ul>
 <p><img alt="Jupyter Notebook" src="../_images/Figure12.png" /></p>
 <br>
-<p><b>IMPORTANT</b>: <br></p>
-<p>Make sure you save files you want to keep <strong>ONLY</strong> <em>within</em> the <code class="docutils literal notranslate"><span class="pre">work</span></code> folder, as this will ensure they are saved on your machine.</p>
-<p>Everything saved outside the <code class="docutils literal notranslate"><span class="pre">work</span></code> folder will be <em>destroyed</em> as soon as you shut down the session.</p>
+<div class="admonition caution">
+<p class="admonition-title">Caution</p>
+<p>Make sure you save files you want to keep <strong>ONLY</strong> <em>within</em> the <code class="docutils literal notranslate"><span class="pre">work</span></code> folder, as this will ensure they are saved on your machine. Everything saved outside the <code class="docutils literal notranslate"><span class="pre">work</span></code> folder will be <em>destroyed</em> as soon as you shut down the session.</p>
+</div>
 <ul class="simple">
 <li><p>You can save your notebook using <strong>File</strong> &gt; <strong>Save notebook as</strong></p></li>
 </ul>
@@ -727,7 +746,10 @@ the command below</p>
 </section>
 <section id="mark-windows-mark">
 <h2><mark> <strong>Windows</strong> </mark><a class="headerlink" href="#mark-windows-mark" title="Permalink to this heading">#</a></h2>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
 <p>If you want to install miniconda (recommended approach, go <a class="reference internal" href="../software_index.html"><span class="doc std std-doc">here</span></a>.)</p>
+</div>
 </section>
 <section id="id11">
 <h2>1. Installation<a class="headerlink" href="#id11" title="Permalink to this heading">#</a></h2>
@@ -759,7 +781,7 @@ the command below</p>
 <ol class="arabic simple" start="2">
 <li><p>Check Docker is available by printing out the version you have installed:</p></li>
 </ol>
-<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>docker<span class="w"> </span>--version
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>docker --version
 </pre></div>
 </div>
 <p><img alt="Docker Version" src="../_images/docker_version.png" /></p>
@@ -775,14 +797,16 @@ the command below</p>
 </ol>
 <p><strong>NOTE</strong>: please ignore the version showing in the screenshot, follow that in
 the command below</p>
-<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>docker<span class="w"> </span>pull<span class="w"> </span>darribas/gds:6.1
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>docker pull darribas/gds:6.1
 </pre></div>
 </div>
 <p><img alt="Pull GDS" src="../_images/pull_gds.png" /></p>
 <br>
 <p>You will know this has completed when each line says ‘Pull complete’.</p>
-<p><b>IMPORTANT</b>: <br></p>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
 <p>Make sure you are connected to the internet and it is a stable connection. This step involves the download of large amounts of data (ca. 10GB) so it might take a while. However, it only needs to run once.</p>
+</div>
 </section>
 <section id="id15">
 <h3>Check success<a class="headerlink" href="#id15" title="Permalink to this heading">#</a></h3>
@@ -804,13 +828,15 @@ the command below</p>
 </ol>
 <p><strong>NOTE</strong>: please ignore the version showing in the screenshot, follow that in
 the command below</p>
-<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>docker<span class="w"> </span>run<span class="w"> </span>--rm<span class="w"> </span>-ti<span class="w"> </span>-p<span class="w"> </span><span class="m">8888</span>:8888<span class="w"> </span>-v<span class="w"> </span><span class="si">${</span><span class="nv">PWD</span><span class="si">}</span>:/home/jovyan/work<span class="w"> </span>darribas/gds:6.1
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>docker run --rm -ti -p <span class="m">8888</span>:8888 -v <span class="si">${</span><span class="nv">PWD</span><span class="si">}</span>:/home/jovyan/work darribas/gds:6.1
 </pre></div>
 </div>
 <p><img alt="DockerRun" src="../_images/docker_run1.png" /></p>
 <p>You have now started a Python session.</p>
-<p><b><em>IMPORTANT</em></b>: <br></p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
 <p>Please do NOT close the PowerShell window until you are finished in this Python session</p>
+</div>
 <ol class="arabic simple" start="2">
 <li><p>To access this session go to your chosen web browser (e.g. Firefox/Chrome) and type: <code class="docutils literal notranslate"><span class="pre">localhost:8888</span></code> into the search bar. You should see something similar to:</p></li>
 </ol>
@@ -833,9 +859,10 @@ the command below</p>
 </ul>
 <p><img alt="Using notebook" src="../_images/Figure12.png" /></p>
 <br>
-<p><b>IMPORTANT</b>: <br></p>
-<p>Make sure you save files you want to keep <strong>ONLY</strong> <em>within</em> the <code class="docutils literal notranslate"><span class="pre">work</span></code> folder, as this will ensure they are saved on your machine.</p>
-<p>Everything saved outside the <code class="docutils literal notranslate"><span class="pre">work</span></code> folder will be <em>destroyed</em> as soon as you shut down the session.</p>
+<div class="admonition caution">
+<p class="admonition-title">Caution</p>
+<p>Make sure you save files you want to keep <strong>ONLY</strong> <em>within</em> the <code class="docutils literal notranslate"><span class="pre">work</span></code> folder, as this will ensure they are saved on your machine. Everything saved outside the <code class="docutils literal notranslate"><span class="pre">work</span></code> folder will be <em>destroyed</em> as soon as you shut down the session.</p>
+</div>
 <ul class="simple">
 <li><p>You can save your notebook using <strong>File</strong> &gt; <strong>Save notebook as</strong>
 <img alt="Saving Notebook" src="../_images/Figure13.png" /></p></li>
@@ -894,11 +921,10 @@ the command below</p>
 
               
               
-                <footer class="bd-footer-article">
-                  
-<div class="footer-article-items footer-article__inner">
-  
-    <div class="footer-article-item"><!-- Previous / next buttons -->
+              
+              
+                <footer class="prev-next-footer">
+                  <!-- Previous / next buttons -->
 <div class="prev-next-area">
     <a class="left-prev"
        href="2-minimalist.html"
@@ -918,10 +944,7 @@ the command below</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
-</div></div>
-  
 </div>
-
                 </footer>
               
             </div>
@@ -936,7 +959,7 @@ the command below</p>
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#a-comprehensive-approach-the-gds-docker-container-slightly-more-advanced-and-complicated-installation">3) A comprehensive approach: the GDS Docker container (slightly more advanced and complicated installation)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#a-comprehensive-approach-the-gds-docker-container-slightly-more-advanced-and-complicated-installation">A comprehensive approach: the GDS Docker container (slightly more advanced and complicated installation)</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#mark-macos-installation-mark"><mark> <strong>MacOS Installation</strong> </mark></a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#installation">1. Installation</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#requirements">Requirements</a></li>
@@ -994,7 +1017,7 @@ the command below</p>
   <div class="footer-item">
     
 <p class="component-author">
-By Nachi
+By Trivik Verma
 </p>
 
   </div>
@@ -1027,8 +1050,8 @@ By Nachi
   </div>
   
   <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script src="../_static/scripts/bootstrap.js?digest=e353d410970836974a52"></script>
-<script src="../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52"></script>
+  <script src="../_static/scripts/bootstrap.js?digest=365ca57ee442770a23c6"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=365ca57ee442770a23c6"></script>
 
   <footer class="bd-footer">
   </footer>
