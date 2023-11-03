@@ -6,7 +6,9 @@ Follow the instructions on the [Anaconda](https://www.anaconda.com/products/dist
 
 - Once you have anaconda installed, we need to set up an independent virtual environment that isolates all the functionality we need.
 
-But first, *what are environments and do you need them?*
+```{important}
+But first, **what are environments and do you need them?**
+```
 
 Environments in Python are like sandboxes that have different versions of Python and/or packages installed in them. You can create, export, list, remove, and update environments. Switching or moving between environments is called activating the environment. When you are done with an environment, you may deactivate it.
 
@@ -26,9 +28,8 @@ Open up the anaconda navigator:
 * Remeber to keep the option "Overwrite exisiting environment" unchecked
 
 
-*TIP :*
-
+```{tip}
 Depending on the speed of your connection, this step will take a while (but no less than 15-30 minutes). Grab a *cuppa* and be patient!
-
+```
 
 This has created the `gds` environment, congratulations! We are _almost_ there. Now we need to _activate_ the environment. For this, just  select the right environment and open a jupyter lab notebook.

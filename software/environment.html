@@ -66,7 +66,7 @@ const thebe_selector_output = ".output, .cell_output"
     <script>DOCUMENTATION_OPTIONS.pagename = 'software/environment';</script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Helping Material" href="../resources_index.html" />
+    <link rel="next" title="Helping Material ch" href="../resources_index.html" />
     <link rel="prev" title="Comprehensive Installation" href="3-comprehensive.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
@@ -164,7 +164,7 @@ const thebe_selector_output = ".output, .cell_output"
         <ul class="nav bd-sidenav bd-sidenav__home-link">
             <li class="toctree-l1">
                 <a class="reference internal" href="../_index.html">
-                    EPA 1316 A Introduction to Urban Data Science
+                    EPA 122A Spatial Data Science
                 </a>
             </li>
         </ul>
@@ -182,12 +182,9 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l1 has-children"><a class="reference internal" href="../assessment_index.html">Assessment</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="../assessment/assignment.html">Assignments</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../assessment/final-project.html">Final Project</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../assessment/project-details.html">Project Details</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../assessment/project-template.html">Project Template</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../assignments_index.html">Assignments</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../faq_index.html">FAQ</a></li>
 <li class="toctree-l1 current active has-children"><a class="reference internal" href="../software_index.html">Software</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-3"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="1-standard.html">Standard Installation</a></li>
 <li class="toctree-l2"><a class="reference internal" href="2-minimalist.html">Minimalist Installation</a></li>
@@ -195,13 +192,8 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l2 current active"><a class="current reference internal" href="#">Virtual Environments</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../resources_index.html">Helping Material</a></li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="../project_index.html">Project Details</a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-4"><i class="fa-solid fa-chevron-down"></i></label><ul>
-<li class="toctree-l2"><a class="reference internal" href="../project/project-01.html"><img src="https://raw.githubusercontent.com/trivikverma/researchgroup/master/static/media/resources/epa1316/TU_descriptor%20black.png" style="float: left; padding-right: 10px; width: 80px"/> EPA-1316 Introduction to <em>Urban</em> Data Science</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../project/project-02.html"><img src="https://raw.githubusercontent.com/trivikverma/researchgroup/master/static/media/resources/epa1316/TU_descriptor%20black.png" style="float: left; padding-right: 10px; width: 80px"/> EPA-1316 Introduction to <em>Urban</em> Data Science</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../project/project-03.html"><img src="https://raw.githubusercontent.com/trivikverma/researchgroup/master/static/media/resources/epa1316/TU_descriptor%20black.png" style="float: left; padding-right: 10px; width: 80px"/> EPA-1316 Introduction to <em>Urban</em> Data Science</a></li>
-</ul>
-</li>
+<li class="toctree-l1"><a class="reference internal" href="../resources_index.html">Helping Material ch</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../faq_index.html">FAQ</a></li>
 </ul>
 
     </div>
@@ -412,7 +404,10 @@ document.write(`
 <h1>Virtual Environments<a class="headerlink" href="#virtual-environments" title="Permalink to this heading">#</a></h1>
 <p>Data Science sometimes requires the ability to be able to handle the overlapping of package dependencies in python which can disturb your working environment. Sometimes you might be experimenting with an earlier version of a package (or library) which requires earlier versions of other packages which can cause conflict as legacy code may raise errors or warnigns accordingly due to conflict.</p>
 <p>To circumvent these troubling issues that recur and to become good at the craft, let us take a look at using virtual environments. Virtual environments can be characterized as empty places that are isolated from the local source and a place you can install new packages (different versions or whatnot).</p>
-<p><em>Note:</em> It is recommended that for you create new virtual environments for each project to isolate their functionality and dependencies from each other. This will save you a lot of headache in the future. Senior batches of EPA have always regretted not doing this.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>It is recommended that for you create new virtual environments for each project to isolate their functionality and dependencies from each other. This will save you a lot of headache in the future. Past batches of EPA have always regretted not doing this.</p>
+</div>
 <section id="virtual-environments-with-anaconda">
 <h2>Virtual Environments with Anaconda<a class="headerlink" href="#virtual-environments-with-anaconda" title="Permalink to this heading">#</a></h2>
 <p>This part of the tutorial assumes that you have installed Anaconda as your primary installation and that you are using jupyter lab / notebook from it. Anaconda really simplifies package management.</p>
@@ -516,7 +511,7 @@ Where <code class="docutils literal notranslate"><span class="pre">myenv</span><
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Helping Material</p>
+        <p class="prev-next-title">Helping Material ch</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -551,7 +546,7 @@ Where <code class="docutils literal notranslate"><span class="pre">myenv</span><
   <div class="footer-item">
     
 <p class="component-author">
-By Nachi
+By Trivik Verma
 </p>
 
   </div>
