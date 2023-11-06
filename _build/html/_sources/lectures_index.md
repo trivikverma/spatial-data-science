@@ -3,20 +3,20 @@
 ```{admonition} Table of Contents! 👇🏽
 :class: dropdown
 
-1. [Lecture 1: Introduction to _Spatial_ Data Science](#lecture-1-introduction-to-spatial-data-science)
-2. [Lecture 2: Spatial and Urban Data](#lecture-2---spatial-and-urban-data)
-3. [Lecture 3: Data Grammar](#lecture-3---data-grammar)
-4. [Lecture 4: Data Engineering](#lecture-4---data-engineering)
-5. [Lecture 5 EDA and Visualisation:](#lecture-5---eda-and-visualisation)
-6. [Lecture 6: Geo-Visualisation](#lecture-6---geo-visualisation)
-7. [Lecture 7: Networks and Spatial Weights](#lecture-7---networks-and-spatial-weights)
-8. [Lecture 8: Exploratory Spatial Data Analysis](#lecture-8---exploratory-spatial-data-analysis)
-9. [Lecture 9: Machine Learning for Everyone](#lecture-9---machine-learning-for-everyone)
-10. [Lecture 10: Anatomy of a Learning Algorithm](#lecture-10---anatomy-of-a-learning-algorithm)
-11. [Lecture 11: Clustering](#lecture-11---clustering)
-12. [Lecture 12: Dimensionality Reduction](#lecture-12---dimensionality-reduction)
-13. [Lecture 13: Spatial Density Estimation](#lecture-13---spatial-density-estimation)
-14. [Lecture 14: Responsible Data Science](#lecture-14---responsible-data-science)
+1. [Lecture 1: Spatial Data Science](L1)
+2. [Lecture 2: Spatial and Urban Data](L2)
+3. [Lecture 3: Data Grammar](L3)
+4. [Lecture 4: Data Engineering](L4)
+5. [Lecture 5 EDA and Visualisation:](L5)
+6. [Lecture 6: Geo-Visualisation](L6)
+7. [Lecture 7: Networks and Spatial Weights](L7)
+8. [Lecture 8: Exploratory Spatial Data Analysis](L8)
+9. [Lecture 9: Machine Learning for Everyone](L9)
+10. [Lecture 10: Anatomy of a Learning Algorithm](L10)
+11. [Lecture 11: Clustering](L11)
+12. [Lecture 12: Dimensionality Reduction](L12)
+13. [Lecture 13: Spatial Density Estimation](L13)
+14. [Lecture 14: Responsible Data Science](L14)
 ```
 
 ```{tip}
@@ -34,14 +34,14 @@
 
 Before starting the course, watch [this video](https://www.youtube.com/watch?v=8jqEj8XUPlk&t=80s) by Khalid Kadir about a reflection on poverty (an example of a social problem), expertise and equity. This representation is an example of how experts create boxes around their craft. As a data scientist or a future expert (consultant, data analyst, policymaker, etc.), it is our responsibility to step out of those boxes and engage with communities to strive for just outcomes. If you have seen this video, send me a meme about poverty, inequality and data. The best submission will win a prize at the end of the course.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8jqEj8XUPlk" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://youtu.be/8jqEj8XUPlk?feature=shared" frameborder="0" allowfullscreen></iframe>
 
 ***
 
-## Lecture 1 - Introduction to Spatial Data Science
+(L1)=
+## Lecture 1 - Spatial Data Science
 
 - [pdf](lectures/01-introduction.pdf)
-- [pdf-continued](lectures/01-introduction-continued.pdf)
 
 ### To do before class [Takes about 1 hour of prep at home]
 
@@ -63,7 +63,7 @@ Epistemology?](https://repository.uclawsf.edu/cgi/viewcontent.cgi?article=2260&c
 
 ***
 
-
+(L2)=
 ## Lecture 2 - Spatial and Urban Data
 
 ### Slides
@@ -83,6 +83,7 @@ Epistemology?](https://repository.uclawsf.edu/cgi/viewcontent.cgi?article=2260&c
 
 ***
 
+(L3)=
 ## Lecture 3 - Data Grammar
 
 ### Slides
@@ -101,6 +102,7 @@ Epistemology?](https://repository.uclawsf.edu/cgi/viewcontent.cgi?article=2260&c
 
 ***
 
+(L4)=
 ## Lecture 4 - Data Engineering
 
 ### Slides
@@ -121,7 +123,7 @@ The contents of this lecture are loosely based on, and explored into further det
 
 ***
 
-
+(L5)=
 ## Lecture 5 - EDA and Visualisation
 
 ### Slides
@@ -145,7 +147,7 @@ The contents of this lecture are loosely based on, and explored into further det
 
 ***
 
-
+(L6)=
 ## Lecture 6 - Geo-Visualisation
 
 ### Slides
@@ -167,7 +169,7 @@ The contents of this lecture are loosely based on, and explored into further det
 
 ***
 
-
+(L7)=
 ## Lecture 7 - Networks and Spatial Weights
 
 ### Slides
@@ -189,7 +191,7 @@ The contents of this lecture are loosely based on, and explored into further det
 
 ***
 
-
+(L8)=
 ## Lecture 8 - Exploratory Spatial Data Analysis
 
 ### Slides
@@ -206,7 +208,7 @@ The contents of this lecture are loosely based on, and explored into further det
 
 ***
 
-
+(L9)=
 ## Lecture 9 - Machine Learning for Everyone
 
 You may want to buy [The Hundred-Page Machine Learning Book](https://leanpub.com/theMLbook) as _some_ chapters will be used in _some_ topics from this point onwards and it is generally a fantastic book to have. If you cannot or do not want to spend $20.00 on the e-copy, email me, and we will figure something out. The author has invested a lot in writing this book, and it is an excellent resource on Machine Learning, even beyond this class.
@@ -230,7 +232,7 @@ The contents of this lecture are loosely based on, and explored into further det
 
 ***
 
-
+(L10)=
 ## Lecture 10 - Anatomy of a Learning Algorithm
 
 ### Slides
@@ -250,7 +252,7 @@ The contents of this lecture are loosely based on, and explored into further det
 
 ***
 
-
+(L11)=
 ## Lecture 11 - Clustering
 
 ### Slides
@@ -268,7 +270,7 @@ The contents of this lecture are loosely based on, and explored into further det
 
 ***
 
-
+(L12)=
 ## Lecture 12 - Dimensionality Reduction
 
 ### Slides
@@ -288,7 +290,7 @@ The contents of this lecture are loosely based on, and explored into further det
 
 ***
 
-
+(L13)=
 ## Lecture 13 - Spatial Density Estimation
 
 ### Slides
@@ -306,7 +308,7 @@ The contents of this lecture are loosely based on, and explored into further det
 
 ***
 
-
+(L14)=
 ## Lecture 14 - Responsible Data Science
 
 ### Slides

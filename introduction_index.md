@@ -36,9 +36,9 @@ All lectures, labs, discussions, and office hours will be hosted in person.
 
 | Teaching Assistant 	| Email                                  	| Role            	|
 |--------------------	|----------------------------------------	|-----------------	|
-| Laura van Geene    	| A.C.Tecourt@student.tudelft.nl    	| All             	|
-| Nachiket Kondhalkar      	| H.D.Yesilli@student.tudelft.nl 	| All             	|
-| Philip Mueller    	| L.Bindi@student.tudelft.nl      	| All             	|
+| Laura van Geene    	| L.A.vanGeene@student.tudelft.nl    	| All             	|
+| Nachiket Kondhalkar      	| N.B.Kondhalkar@student.tudelft.nl 	| All             	|
+| Philip Mueller    	| P.Muller@student.tudelft.nl      	| All             	|
 
 
 ## Course Language
@@ -86,7 +86,7 @@ This course is about learning to learn, so if you have a question, follow the pr
 
 Access to materials, including lecture slides and lab notebooks, is centralized through the use of a course website available through the following url:
 
-[`https://cusp.tbm.tudelft.nl/courses/epa1316/`](https://cusp.tbm.tudelft.nl/courses/epa1316/)
+[`https://trivikverma.github.io/spatial-data-science/_index.html`](https://trivikverma.github.io/spatial-data-science/_index.html)
 
 Specific readings, videos, and/or podcasts, as well as academic references will be provided for each lecture and lab, and can be accessed through the course website.
 

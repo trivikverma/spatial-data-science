@@ -2,14 +2,14 @@
 
 ```{admonition} Table of Contents! 👇🏽
 :class: dropdown
-1. [Lab 0: Tools](#lab-0---tools)
-2. [Lab 1: Tidy Data](#lab-1---tidy-data)
-3. [Lab 2: Data Engineering](#lab-2---data-engineering)
-4. [Lab 3: Geo-Visualisation](#lab-3---geo-visualisation)
-5. [Lab 4: Networks and Spatial Weights](#lab-4---networks-and-spatial-weights)
-6. [Lab 5: Linear Regression](#lab-5---linear-regression)
-7. [Lab 6: Clustering](#lab-6---clustering)
-8. [Lab 7: Points](#lab-7---points)
+1. [Lab 0: Tools](lab-0)
+2. [Lab 1: Tidy Data](lab-1)
+3. [Lab 2: Data Engineering](lab-2)
+4. [Lab 3: Geo-Visualisation](lab-3)
+5. [Lab 4: Networks and Spatial Weights](lab-4)
+6. [Lab 5: Linear Regression](lab-5)
+7. [Lab 6: Clustering](lab-6)
+8. [Lab 7: Points](lab-7)
 ```
 
 ```{tip}
@@ -20,7 +20,7 @@ You can download all the labs, associated datasets, html files showing the outpu
 
 ***
 
-
+(lab-0)=
 ## Lab 0 - Tools
 
 - [lab-0](labs/lab-00.zip)
@@ -38,17 +38,18 @@ If you want to explore further by yourself the contents presented in this tutori
 
 ***
 
-
+(lab-1)=
 ## Lab 1 - Tidy Data
 
 - [lab-1](labs/lab-01.zip)
 
 ### Data
 
-This session uses the **"Census socio-demographics"** dataset of Liverpool, United Kingdom in two parts. The dataset for this lab is provided in the zipped lab files above.
+This session uses the **"Census socio-demographics"** dataset of The Hague, Netherlands and Liverpool, United Kingdom in two parts. The dataset for this lab is provided in the zipped lab files above.
 
-1. Table of LSOA areas in Liverpool with population counts by World region. The table is derived from the CDRC Census data pack.
-2. Collection of socio-demographic characteristics from the 2011 Census for the city of Liverpool.
+1. Table of neighbourhoods called Buurten areas in The Hague with population counts by World region and Age groups. The table is derived from the denhaagcijfers dataset.
+2. Table of LSOA areas in Liverpool with population counts by World region. The table is derived from the CDRC Census data pack.
+3. Collection of socio-demographic characteristics from the 2011 Census for the city of Liverpool.
 
 ### Extra Material
 
@@ -58,7 +59,7 @@ This session uses the **"Census socio-demographics"** dataset of Liverpool, Unit
 
 ***
 
-
+(lab-2)=
 ## Lab 2 - Data Engineering
 
 - [lab-2](labs/lab-02.zip)
@@ -73,7 +74,7 @@ This session uses two datasets which are provided in the zipped lab files above.
 
 ***
 
-
+(lab-3)=
 ## Lab 3 - Geo-Visualisation
 
 - [lab-3](labs/lab-03.zip)
@@ -99,7 +100,7 @@ Scores, ranks, and components of the 2015 Index of Multiple Deprivation (IMD).
 
 ***
 
-
+(lab-4)=
 ## Lab 4 - Networks and Spatial Weights
 
 - [lab-4](labs/lab-04.zip)
@@ -121,7 +122,7 @@ The source data used to compile the file linked above include:
 
 ***
 
-
+(lab-5)=
 ## Lab 5 - Linear Regression
 
 - [lab-5](labs/lab-05.zip)
@@ -143,7 +144,7 @@ These sets are not that relevant to global urban issues but simple to work with 
 
 ***
 
-
+(lab-6)=
 ## Lab 6 - Clustering
 
 - [lab-6](labs/lab-06.zip)
@@ -180,7 +181,7 @@ The lab also uses an additional file that contains the boundary lines of the Lon
 
 ***
 
-
+(lab-7)=
 ## Lab 7 - Points
 
 - [lab-7](labs/lab-07.zip)
