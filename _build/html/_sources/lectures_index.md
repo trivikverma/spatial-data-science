@@ -34,7 +34,7 @@
 
 Before starting the course, watch [this video](https://www.youtube.com/watch?v=8jqEj8XUPlk&t=80s) by Khalid Kadir about a reflection on poverty (an example of a social problem), expertise and equity. This representation is an example of how experts create boxes around their craft. As a data scientist or a future expert (consultant, data analyst, policymaker, etc.), it is our responsibility to step out of those boxes and engage with communities to strive for just outcomes. If you have seen this video, send me a meme about poverty, inequality and data. The best submission will win a prize at the end of the course.
 
-<iframe width="560" height="315" src="https://youtu.be/8jqEj8XUPlk?feature=shared" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" <iframe width="560" height="315" src="https://www.youtube.com/embed/8jqEj8XUPlk" frameborder="0" allowfullscreen></iframe>
 
 ***
 
