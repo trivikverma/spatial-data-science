@@ -38,7 +38,7 @@ All lectures, labs, discussions, and office hours will be hosted in person.
 |--------------------	|----------------------------------------	|-----------------	|
 | Laura van Geene    	| L.A.vanGeene@student.tudelft.nl    	| All             	|
 | Nachiket Kondhalkar      	| N.B.Kondhalkar@student.tudelft.nl 	| All             	|
-| Philip Mueller    	| P.Muller@student.tudelft.nl      	| All             	|
+| Philip Mueller    	| P.Muller@student.tudelft.nl      	| All             	| Shreya Kejriwal    	| S.M.Kejriwal@student.tudelft.nl      	| All             	|
 
 
 ## Course Language
