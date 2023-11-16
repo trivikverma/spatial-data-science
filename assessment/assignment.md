@@ -4,9 +4,9 @@
 
 There are 3 graded assignments in the course. These will assess the programming and reasoning skills developed in the weeks before the assignment submissions. The contents of the assignments will be released according to the [schedule](../introduction/schedule.md).
 
-* [Assignment 01](../assignments/assignment-01.ipynb) - Data Collection and Wrangling (15%)
-* [Assignment 02](../assignments/assignment-02.ipynb) - Geographic Visualisation (15%)
-* [Assignment 03](../assignments/assignment-03.ipynb) - Prediction/Inference (20%)
+* [Assignment 01](../assignments/assignment-01.zip) - Data Collection and Wrangling (15%)
+* [Assignment 02](../assignments/assignment-02.zip) - Geographic Visualisation (15%)
+* [Assignment 03](../assignments/assignment-03.zip) - Prediction/Inference (20%)
 
 ### Marking Criteria for assignments
 
