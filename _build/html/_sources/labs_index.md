@@ -85,12 +85,9 @@ The homework exercises are embedded within the lab files itself. You have to com
 
 This session uses multiple datasets which are provided in the zipped lab files above.
 
-1. A **"Census socio-demographics"** dataset as well as the Ordnance Survey **(OS) Geodata Pack**.
-2. An **"Index of Multiple Deprivation""** dataset as well as the Ordnance Survey **(OS) Geodata Pack**.
-Scores, ranks, and components of the 2015 Index of Multiple Deprivation (IMD).
-**Source**: [CDRC](http://cdrc.ac.uk/)'s English Indices of Deprivation 2015 Geodata Pack for the city of Liverpool (UK).
-3. Additionally, you will need the raster file for the basemap of Liverpool. This has been assembled by [Dani Arribas-Bel](http://darribas.org) from the [OS VectorMap District (Backdrop Raster)](https://www.ordnancesurvey.co.uk/business-and-government/products/vectormap-district.html), and it is licensed as OpenData.
-4. Simple datasets on ``heart diseases``, ``titanic`` and a ``mystery`` are also provided.
+1. A **"Census socio-demographics"** dataset from the Municipality of the city of Cape Town from the Open Data Portal for the City of the Cape Town. [Source] (https://odp-cctegis.opendata.arcgis.com/).
+2. Shape files for the city of Cape Town from Media Monitoring Africa (MMA) which is an independent watchdog for ethical and fair journalism that upholds human rights. [Source](https://wazimap.co.za/profiles/municipality-CPT-city-of-cape-town/).
+3. Simple datasets on ``heart diseases``, ``titanic`` and a ``mystery`` are also provided.
 
 ### Extra Material
 
@@ -109,8 +106,13 @@ Scores, ranks, and components of the 2015 Index of Multiple Deprivation (IMD).
 
 This session uses multiple datasets which are all provided in the zipped lab files above.
 
-1. An **"Index of Multiple Deprivation""** dataset used in previous labs.
-2. A **Brexit** dataset.
+This session uses multiple datasets which are provided in the zipped lab files above.
+
+1. An **"Index of Multiple Deprivation""** dataset as well as the Ordnance Survey **(OS) Geodata Pack**.
+Scores, ranks, and components of the 2015 Index of Multiple Deprivation (IMD).
+**Source**: [CDRC](http://cdrc.ac.uk/)'s English Indices of Deprivation 2015 Geodata Pack for the city of Liverpool (UK).
+2. Additionally, you will need the raster file for the basemap of Liverpool. This has been assembled by [Dani Arribas-Bel](http://darribas.org) from the [OS VectorMap District (Backdrop Raster)](https://www.ordnancesurvey.co.uk/business-and-government/products/vectormap-district.html), and it is licensed as OpenData.
+3. A **Brexit** dataset.
 
 The Brexit dataset is of the results of the 2016 referendum vote to leave the EU, at the local authority level. All the necessary data have been assembled for convenience in a single file that contains geographic information about each local authority in England, Wales and Scotland, as well as the vote attributes. The file is in the modern geospatial format [GeoPackage](http://www.geopackage.org/), which presents several advantages over the more traditional shapefile (chief among them, the need of a single file instead of several).
 
