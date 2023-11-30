@@ -85,7 +85,7 @@ The homework exercises are embedded within the lab files itself. You have to com
 
 This session uses multiple datasets which are provided in the zipped lab files above.
 
-1. A **"Census socio-demographics"** dataset from the Municipality of the city of Cape Town from the Open Data Portal for the City of the Cape Town. [Source] (https://odp-cctegis.opendata.arcgis.com/).
+1. A **"Census socio-demographics"** dataset from the Municipality of the city of Cape Town from the Open Data Portal for the City of the Cape Town. [Source](https://odp-cctegis.opendata.arcgis.com/).
 2. Shape files for the city of Cape Town from Media Monitoring Africa (MMA) which is an independent watchdog for ethical and fair journalism that upholds human rights. [Source](https://wazimap.co.za/profiles/municipality-CPT-city-of-cape-town/).
 3. Simple datasets on ``heart diseases``, ``titanic`` and a ``mystery`` are also provided.
 
