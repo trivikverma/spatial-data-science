@@ -442,12 +442,12 @@ document.write(`
 <ul>
 <li><p>Get the installer file from <a class="reference download internal" download="" href="../_downloads/b4fcc213ec565d67b01c5b95e65b792e/install_gds_stack.zip"><span class="xref download myst">here</span></a> and unzip it.</p></li>
 <li><p>Navigate to the folder where this file is (e.g. Downloads):</p>
-<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span><span class="nb">cd</span> /path/to/Downloads
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span><span class="nb">cd</span><span class="w"> </span>/path/to/Downloads
 </pre></div>
 </div>
 </li>
 <li><p>Execute the following command (note you will need a good and stable internet connection and will take a while to complete):</p>
-<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>conda env create -f install_gds_stack.yml
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>conda<span class="w"> </span>env<span class="w"> </span>create<span class="w"> </span>-f<span class="w"> </span>install_gds_stack.yml
 </pre></div>
 </div>
 </li>
@@ -458,13 +458,13 @@ document.write(`
 </div>
 <ul>
 <li><p>This has created the <code class="docutils literal notranslate"><span class="pre">gds</span></code> environment, congratulations! We are <em>almost</em> there. Now we need to <em>activate</em> the environment. For this, run the following command:</p>
-<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>conda activate gds
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>conda<span class="w"> </span>activate<span class="w"> </span>gds
 </pre></div>
 </div>
 <p>You should see the name of the environment at the start of your command prompt in parenthesis.</p>
 </li>
 <li><p>Verify that the new environment was installed correctly:</p>
-<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>conda list
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>conda<span class="w"> </span>list
 </pre></div>
 </div>
 </li>
@@ -475,12 +475,12 @@ document.write(`
 </div>
 <ul>
 <li><p>Now we have to install the environment <code class="docutils literal notranslate"><span class="pre">gds</span></code> as a kernel on jupyter lab so you can use the packages inside it,</p>
-<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>ipython kernel install --name <span class="s2">&quot;gds&quot;</span> --user
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>ipython<span class="w"> </span>kernel<span class="w"> </span>install<span class="w"> </span>--name<span class="w"> </span><span class="s2">&quot;gds&quot;</span><span class="w"> </span>--user
 </pre></div>
 </div>
 </li>
 <li><p>Once the kernel is installed and environment is activated as we did above, we can open a jupyter lab instance using the following command,</p>
-<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>jupyter lab
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>jupyter<span class="w"> </span>lab
 </pre></div>
 </div>
 </li>
