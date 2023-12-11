@@ -24,7 +24,7 @@ Some examples of good assignments from last years are listed below - [Final proj
 ## Milestones (to keep track of your work)
 
 ### 1. Group Creation and Project Selection
-Form groups of 4 students each. Each student needs to be part of a group. If you are going to drop the course, don't sign up for the final project as that may delay the progress of other students. 
+Form groups of 4 students each. Each student needs to be part of a group. If you are going to drop the course, don't sign up for the final project as that may delay the progress of other students. If you have seen this message, send me a meme about spatial data science, social justice, or any other topics covered in the course. The best submission will win a prize at the end of the course.
 
 **Some suggestions for creating effective groups,**
 
