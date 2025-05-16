@@ -1,5 +1,4 @@
-# spatial-data-science
-[EPA122A] Spatial Data Science Course offered at TU Delft
+# Just Urban Futures
 
 Urban plannners, policymakers and key decisionmaking stakeholders use data and data-based infrastructures to govern various urban systems from operations to planning, optimsation and distribution of resources. This course will introduce you to practices in data analysis and computational methods in the context of urban planning. It will illustrate how data can be used and misused, and how to critically evaluate datasets, models and questions that arise from them. While learning how to collect, transform and analyse data using machine learning techniques for understanding urban phenomena, you will learn about the process of data science and its positive and negative impacts on people and places.
 
